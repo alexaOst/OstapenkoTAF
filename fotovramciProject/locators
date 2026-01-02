@@ -1,0 +1,47 @@
+### Home page ###
+
+summary.buyButton = //summary[@data-href]
+li.plivkaCategory = //li[@class='block-meganav__submenu’]/a[@href=‘/collections/plivka’]
+li.fotokameryCategory //li[@class='block-meganav__submenu']/a[@href='/collections/fotokamery']
+a.search = //a[@href='/search']
+input.search = //input[@class='gl-d-searchbox-input']
+a.printPhoto = //a[@href='https://print.fotovramci.com/'][1]
+div.labelOutOfStock = //div[contains(text(), 'Продано')]
+a.anyProductWithLabelOutOfStock = //a[following-sibling::div/div/div[contains(text(), 'Продано')]]
+
+### Plivka page ###
+
+span.format = //span[contains(text(), 'Формат')]
+span.ISO = //span[contains(text(), 'Чутливість')]
+button.200ISO = //button[@title='200 iso']
+button.35mm = //button[@title='135 тип (35 мм)']
+a.result = //a[contains(text(), '200')] || //a[contains(text(), '35')]
+
+a.goToDetailOfAnyPlivka = //a[@class='spf-product-card__image-wrapper hover-effect']
+
+### Fotokamery page ###
+
+a.goToDetailOfAnyfotokamery = //a[@class='spf-product-card__image-wrapper hover-effect']
+
+### Product details page ###
+
+button.addToCart = //button[contains(text(), 'Додати в кошик')]
+button.sold = //button[contains(text(), 'Продано')]
+
+### Cart Page ###
+
+div.cartModalWindow = //div[@data-component='flyout'][2]
+span.counterOfItems = //span[@data-cart-drawer-count]
+
+### Search Page ###
+
+a.anyItemAfterSearch = //a[contains(text(), 'Kodak')]
+
+### Print Page ###
+
+a.buttomOrder = //div[@class='block']/a[@href='https://print.fotovramci.com/upload-photos']
+
+### Upload Photo Page ###
+
+label.uploadPhoto = //label[@class='custom-file']
+div.errorText = //div[@class='text-error alarm']
