@@ -1,0 +1,88 @@
+#001 Filter film by ISO and format
+
+Precondition: User is on Home page
+
+Steps to reproduce:
+1. On Home page tap “Buy”
+2. Select Film category
+3. Select Format = 35 mm
+4. Select ISO = 200
+5. Wait for product list to be updated
+
+Expected result:
+* Product list is updated according to selected filters
+* All displayed products contain Format = 35 mm
+* All displayed products contain ISO = 200
+* Product list is not empty
+
+#002 Verify cart counter after adding different product types (film + camera)
+
+Precondition: User is on Home page
+
+Steps to reproduce:
+1. On Home page tap “Buy”
+2. Open Film category
+3. Add any film product to cart
+4. Return to Home page
+5. Tap “Buy”
+6. Open Camera category
+7. Add any camera product to cart
+
+Expected result:
+* Cart counter is displayed
+* Cart counter equals 2
+* Cart contains two different product types:
+    * one film
+    * one camera
+* Each product is displayed as a separate cart item
+
+#003 View results of search
+
+Precondition: User is on Home page
+
+Steps to reproduce:
+1. Tap Search icon on Home page
+2. Search bar opens
+3. Enter “kodak” into the search input field
+4. Submit the search (tap Enter)
+5. Observe the displayed search results
+
+Expected result / Assertions:
+* Search results page is displayed
+* All listed products contain “kodak” in the name
+* Product list is not empty
+* Search input retains the entered text “kodak”
+* Search results are relevant to the query
+
+#004 Out-of-stock product behavior (Kodak Color Plus 200/135)
+
+Precondition:
+* User is on Home page
+* Product has Out of stock status
+* Cart is empty
+
+Steps to reproduce:
+1. On Home page scroll to “Today’s Top Products” section
+2. Hover mouse over a product
+3. Click on the product
+4. Observe the "Add to cart" button
+
+Expected result:
+
+* “Sold” button is disabled
+
+#005 Photo printing – Order creation – invalid photo size warning
+
+Precondition: User is on Home page
+
+Steps to reproduce:
+1. Tap “Print photo” on Home page
+2. Tap “Order”
+3. Tap “Upload photo” and select a square photo
+4. Observe the displayed warning text
+
+Expected result:
+* Warning text is displayed: “Деякі завантажені фотографії не відповідають обраному формату.
+    Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру”
+* User cannot proceed with order until photo is corrected
+* UI highlights the invalid photo
