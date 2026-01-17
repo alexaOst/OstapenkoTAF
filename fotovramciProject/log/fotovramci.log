@@ -1,0 +1,15 @@
+2026-17-01 22:52:09   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-17-01 22:52:09   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-17-01 22:52:15  ERROR [org.pages.elements.HeaderOfSite] : Error while working with element
+2026-17-01 22:52:15   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-17-01 22:53:52   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-17-01 22:53:52   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-17-01 22:53:57  ERROR [org.pages.elements.HeaderOfSite] : Error while working with element
+2026-17-01 22:53:57   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-17-01 22:58:00   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-17-01 22:58:00   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-17-01 22:58:05  ERROR [org.pages.elements.HeaderOfSite] : Error while working with element
+2026-17-01 22:58:05   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-17-01 22:59:28   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-17-01 22:59:28   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-17-01 23:00:00   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/

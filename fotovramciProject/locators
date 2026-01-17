@@ -1,6 +1,6 @@
 ### Home page ###
 
-summary.buyButton = //summary[@data-href]
+summary.buyButton = //summary[@data-href='/collections/all']
 li.plivkaCategory = //li[@class='block-meganav__submenu’]/a[@href=‘/collections/plivka’]
 li.fotokameryCategory //li[@class='block-meganav__submenu']/a[@href='/collections/fotokamery']
 a.search = //a[@href='/search']
