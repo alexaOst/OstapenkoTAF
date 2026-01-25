@@ -14,4 +14,6 @@ public class PageProvider {
     public HomePage getHomePage() {
         return new HomePage(webDriver);
     }
+
+    public PlivkaPage getPlivkaPage() { return new PlivkaPage(webDriver); }
 }

@@ -14,8 +14,14 @@ public class FilterForFilms extends BaseTest {
     @Test
     public void testFilterForFilms() {
         logger.info("Test for filter films started");
-        pageProvider.getHomePage().openLoginPage();
-//        pageProvider.getHomePage().getHeader().clickOnButtonKupyty();
+        pageProvider.getHomePage()
+                .openLoginPage()
+                .getHeader()
+                .hoverOnButtonKupyty()
+                .clickOnLinkFilms()
+                .checkIsRedirectToPlivkaPage();
+
+
         // TO DO implement test steps for filtering films
         logger.info("Test for filter films completed");
     }

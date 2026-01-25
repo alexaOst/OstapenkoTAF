@@ -4,6 +4,8 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.pages.elements.HeaderOfSite;
 
+import java.time.Duration;
+
 public class HomePage extends ParentPage {
 
     private Logger logger = Logger.getLogger(getClass());
@@ -14,6 +16,11 @@ public class HomePage extends ParentPage {
 
     public HeaderOfSite getHeader() {
         return new HeaderOfSite(webDriver);
+    }
+
+    @Override
+    protected String getRelativeUrl() {
+        return "/";
     }
 
     public HomePage openLoginPage() {
