@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -17,12 +18,18 @@ public class CommonActionsWithElements {
     protected WebDriver webDriver;
 
     private Logger logger = Logger.getLogger(getClass());
-    protected WebDriverWait webDriverWait10;
 
     public CommonActionsWithElements(WebDriver webDriver) {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this); // init elements declare by "@FindBy"
-        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(10));
+    }
+
+    private String getElementName(WebElement webElement) {
+        try {
+            return webElement.getAccessibleName();
+        } catch (Exception e) {
+            return "";
+        }
     }
 
     protected void clickOnElement(WebElement webElement) {
@@ -33,7 +40,6 @@ public class CommonActionsWithElements {
             printErrorAndStopTest();
         }
     }
-
 
     protected void hoverOnElement(WebElement element) {
         try {
@@ -48,6 +54,33 @@ public class CommonActionsWithElements {
     protected WebElement waitForElement(WebElement element, int timeoutInSeconds) {
         return new WebDriverWait(webDriver, Duration.ofSeconds(timeoutInSeconds))
                 .until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    protected void selectTextInDropDown(WebElement webElement, String text) {
+        try {
+            Select select = new Select(webElement);
+            select.selectByVisibleText(text);
+            logger.info("Text '" + text + "' was selected in DropDown");
+        } catch (Exception e) {
+            printErrorAndStopTest();
+        }
+    }
+
+
+    protected void checkTextInElement(WebElement webElement, String expectedText) {
+        try {
+            String actualText = webElement.getText();
+            Assert.assertTrue(
+                    "Text in element is not as expected. " +
+                            "Expected (equals or contains): " + expectedText +
+                            ", Actual: " + actualText,
+                    actualText.equals(expectedText) || actualText.contains(expectedText)
+            );
+
+            logger.info("Text in element matches expected text: " + expectedText);
+        } catch (Exception e) {
+            printErrorAndStopTest();
+        }
     }
 
     private void printErrorAndStopTest() {

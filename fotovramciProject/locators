@@ -2,7 +2,7 @@
 
 summary.buyButton = //summary[@data-href='/collections/all']
 li.plivkaCategory = //li[@class='block-meganav__submenu’]/a[@href=‘/collections/plivka’]
-li.fotokameryCategory //li[@class='block-meganav__submenu']/a[@href='/collections/fotokamery']
+li.fotokameryCategory = //li[@class='block-meganav__submenu']/a[@href='/collections/fotokamery']
 a.search = //a[@href='/search']
 input.search = //input[@class='gl-d-searchbox-input']
 a.printPhoto = //a[@href='https://print.fotovramci.com/'][1]

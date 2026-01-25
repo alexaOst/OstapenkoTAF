@@ -12,14 +12,26 @@ public class FilterForFilms extends BaseTest {
     private Logger logger = Logger.getLogger(getClass());
 
     @Test
-    public void testFilterForFilms() {
+    public void TC001_testFilterForFilms() {
         logger.info("Test for filter films started");
         pageProvider.getHomePage()
                 .openLoginPage()
                 .getHeader()
                 .hoverOnButtonKupyty()
                 .clickOnLinkFilms()
-                .checkIsRedirectToPlivkaPage();
+                .checkIsRedirectToPlivkaPage()
+                .clickFormatSelector()
+                .click135mmFormat()
+                .check135mmFormatLabel("135 тип (35 мм)")
+
+                .clickOnISOSelector()
+                .click200ISOOption()
+                .check200ISOLabel("200")
+                .checkProductListIsNotEmpty()
+
+
+        ;
+
 
 
         // TO DO implement test steps for filtering films
