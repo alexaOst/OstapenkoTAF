@@ -2,11 +2,16 @@ package org.pages;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 
@@ -47,8 +52,10 @@ public class PlivkaPage extends ParentPage {
     @FindBy(xpath = "//div[@class='h4 spf-product-card__title']")
     private List<WebElement> productLocator;
 
-    @FindBy(className = "next")
-    private WebElement nextPageButton;
+//    @FindBy(className = "next")
+//    private WebElement nextPageButton;
+
+
 
     public PlivkaPage checkIsRedirectToPlivkaPage() {
         checkUrl();
@@ -146,23 +153,75 @@ public class PlivkaPage extends ParentPage {
 
             pageNumber++;
 
+        } while (goToNextPageIfExistsSafe());
 
-        } while (goToNextPageIfExists());
-
+        softAssert.assertAll();
         return this;
     }
 
-    private boolean goToNextPageIfExists() {
-        if (isElementDisplayed(nextPageButton) && nextPageButton.isEnabled()) {
+    private boolean goToNextPageIfExistsSafe() {
+        List<WebElement> buttons = webDriver.findElements(By.className("next"));
+        if (buttons.isEmpty()) {
+            logger.info("Next page button not found — це остання сторінка");
+            return false;
+        }
+
+        WebElement nextPageButton = buttons.get(0);
+
+        try {
+            if (!nextPageButton.isDisplayed() || !nextPageButton.isEnabled()) {
+                logger.info("Next page button is disabled — це остання сторінка");
+                return false;
+            }
+
+            // зберігаємо старі продукти для перевірки оновлення DOM
+            List<WebElement> oldProducts = getProductList();
+
             clickOnElement(nextPageButton);
             logger.info("Navigated to next page");
-            waitUntilAllVisible(productLocator, 20); // дочекаємось нових продуктів
+
+            // чекаємо, поки старі продукти стануть неактуальними (DOM оновиться)
+            if (!oldProducts.isEmpty()) {
+                WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(30));
+                wait.until(ExpectedConditions.stalenessOf(oldProducts.get(0)));
+            }
+
+            // дочекаємось нових продуктів
+            waitUntilAllVisible(productLocator, 30);
 
             return true;
-        } else {
-            logger.info("Next page button not found or disabled — це остання сторінка");
+
+        } catch (StaleElementReferenceException e) {
+            logger.warn("Next page button became stale — можливо, це остання сторінка");
             return false;
         }
     }
+
+
+
+    private boolean goToNextPageIfExists() {
+        List<WebElement> buttons = webDriver.findElements(By.className("next")); // знайдемо всі кнопки
+        if (!buttons.isEmpty()) {
+            WebElement nextPageButton = buttons.get(0);
+            try {
+                if (nextPageButton.isDisplayed() && nextPageButton.isEnabled()) {
+                    clickOnElement(nextPageButton);
+                    logger.info("Navigated to next page");
+//                    waitUntilAllVisible(productLocator, 30); // дочекаємось нових продуктів
+                    return true;
+                } else {
+                    logger.info("Next page button is disabled — це остання сторінка");
+                    return false;
+                }
+            } catch (StaleElementReferenceException e) {
+                logger.warn("Next page button became stale — можливо, це остання сторінка");
+                return false;
+            }
+        } else {
+            logger.info("Next page button not found — це остання сторінка");
+            return false;
+        }
+    }
+
 
 }
