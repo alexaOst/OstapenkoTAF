@@ -288,3 +288,782 @@
 2026-25-01 18:59:02   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
 2026-25-01 18:59:02   INFO [org.tests.FilterForFilms] : Test for filter films completed
 2026-25-01 18:59:02   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 20:45:08   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 20:45:08   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 20:45:15   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 20:45:15   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 20:45:17   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 20:45:17   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 20:45:17   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 20:45:17   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 20:45:17   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 20:45:18   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 20:45:18   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 20:45:19   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:48:39   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:48:39   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:48:44   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:48:44   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:48:46   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:48:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:48:46   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:48:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:48:46   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:48:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:48:47   INFO [org.pages.PlivkaPage] : Product with title '200' was found
+2026-25-01 21:48:47   WARN [org.pages.PlivkaPage] : Reached maximum deletion attempts for post with title: 200
+2026-25-01 21:48:47   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 21:48:47   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:52:05   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:52:05   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:52:12   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:52:12   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:52:14   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:52:15   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 1Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 2Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 3Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 4Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 5Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 6Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 7Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 8Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 9Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 10Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 11Product with title '200' was found 
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:52:16   INFO [org.pages.PlivkaPage] : 12Product with title '200' was found 
+2026-25-01 21:52:16   WARN [org.pages.PlivkaPage] : Reached maximum deletion attempts for post with title: 200
+2026-25-01 21:52:16   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 21:52:17   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:52:54   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:52:54   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:52:59   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:52:59   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:53:01   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : 1Product with title '200' was found 
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:02   INFO [org.pages.PlivkaPage] : 2Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 3Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 4Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 5Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 6Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 7Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 8Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 9Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 10Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 11Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 12Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 13Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 14Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 15Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 16Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 17Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 18Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 19Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 20Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 21Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 22Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 23Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 24Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 25Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 26Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 27Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 28Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 29Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 30Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 31Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 32Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 33Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 34Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 35Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 36Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 37Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 38Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 39Product with title '200' was found 
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:53:03   INFO [org.pages.PlivkaPage] : 40Product with title '200' was found 
+2026-25-01 21:53:03   WARN [org.pages.PlivkaPage] : Reached maximum deletion attempts for post with title: 200
+2026-25-01 21:53:03   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 21:53:04   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:54:13   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:54:13   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:54:17   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:54:17   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:54:19   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:54:19   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 1Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 2Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 3Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 4Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 5Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 6Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 7Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 8Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 9Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 10Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 11Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 12Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 13Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 14Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 15Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 16Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 17Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 18Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 19Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 20Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 21Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 22Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 23Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 24Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 25Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 26Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 27Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 28Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 29Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 30Product with title '135' was found 
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:20   INFO [org.pages.PlivkaPage] : 31Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 32Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 33Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 34Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 35Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 36Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 37Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 38Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 39Product with title '135' was found 
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:54:21   INFO [org.pages.PlivkaPage] : 40Product with title '135' was found 
+2026-25-01 21:54:21   WARN [org.pages.PlivkaPage] : Reached maximum deletion attempts for post with title: 135
+2026-25-01 21:54:21   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 21:54:21   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:55:36   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:55:36   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:55:42   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:55:42   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:55:44   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:55:44   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:55:45   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 1Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 2Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 3Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 4Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 5Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 6Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 7Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 8Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 9Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 10Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 11Product with title '135' was found 
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:55:46   INFO [org.pages.PlivkaPage] : 12Product with title '135' was found 
+2026-25-01 21:55:46   WARN [org.pages.PlivkaPage] : Reached maximum deletion attempts for post with title: 135
+2026-25-01 21:55:46   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 21:55:46   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:56:25   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:56:25   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:56:29   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:56:30   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:56:31   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:56:31   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:56:31   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:56:31   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:56:31   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:56:32   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:56:32   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:56:32   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:56:32   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:56:32   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 1Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 2Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 3Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 4Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 5Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 6Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 7Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 8Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 9Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 10Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 11Product with title '135' was found 
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:56:33   INFO [org.pages.PlivkaPage] : 12Product with title '135' was found 
+2026-25-01 21:56:33   WARN [org.pages.PlivkaPage] : Reached maximum deletion attempts for post with title: 135
+2026-25-01 21:56:33   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 21:56:33   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:57:32   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:57:32   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 21:57:37   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 21:57:38   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 21:57:39   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 21:57:40   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : 1Product with title '135' was found Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : 2Product with title '135' was found Плівка Fujifilm 200/135
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 21:57:41   INFO [org.pages.PlivkaPage] : 3Product with title '135' was found Плівка Kodak Color Plus 200/135
+2026-25-01 21:57:41   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 21:59:55   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 21:59:55   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:00:00   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:00:00   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:00:01   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:00:02   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : 1. Product with title '135' was found Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : 2. Product with title '135' was found Плівка Fujifilm 200/135
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 22:00:03   INFO [org.pages.PlivkaPage] : 3. Product with title '135' was found Плівка Kodak Color Plus 200/135
+2026-25-01 22:00:03   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:08:48   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:08:48   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:08:52   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:08:53   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:08:54   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:08:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:08:54   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:08:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:08:54   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : 1. Product contains texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : 2. Product contains texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:08:55   INFO [org.pages.PlivkaPage] : 3. Product contains texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:08:56   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:14:22   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:14:22   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:14:27   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:14:27   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:14:28   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:14:30   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:14:30   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:14:31   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:14:32   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:14:32   INFO [org.tests.FilterForFilms] : Test for filter films completed
+2026-25-01 22:14:32   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:28:16   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:28:16   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:28:21   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:28:21   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:28:23   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:28:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:28:23   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:28:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:28:23   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:28:24   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:28:25   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:28:26   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:30:16   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:30:16   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:30:20   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:30:21   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:30:22   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:30:22   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:30:22   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:30:22   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:30:22   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:30:23   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:30:24   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:30:24   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:30:25   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:37:40   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:37:40   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:37:44   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:37:44   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:37:45   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:37:45   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:37:45   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:37:46   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:37:46   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:38:26   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:38:26   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:38:30   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:38:30   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:38:31   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:38:32   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:38:33   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : Navigated to next page
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Revolog Lazer 200/135
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Revolog Kosmos 200/135
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Revolog Kolor 200/36
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Stereo 200/135
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Solar 200/36
+2026-25-01 22:38:34   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Pacific 200/36
+2026-25-01 22:38:34   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:41:49   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:41:49   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:41:54   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:41:54   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:41:55   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:41:56   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:41:56   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:41:56   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:41:56   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:41:56   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : Checking page 1 with 12 products
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:41:57   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:41:59  ERROR [org.pages.PlivkaPage] : Error while working with element
+2026-25-01 22:41:59   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:42:37   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:42:37   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:42:41   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:42:41   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:42:43   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:42:43   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:42:43   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:42:43   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:42:43   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:42:43   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:42:43   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : Checking page 1 with 12 products
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:42:44   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : Navigated to next page
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : Checking page 2 with 12 products
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:42:45   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:42:46   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:42:46   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:42:46   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:42:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:42:46   INFO [org.pages.PlivkaPage] : Navigated to next page
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : Checking page 3 with 12 products
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Revolog Kosmos 200/135
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Revolog Kolor 200/36
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Stereo 200/135
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Solar 200/36
+2026-25-01 22:42:47   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Pacific 200/36
+2026-25-01 22:42:47   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:44:21   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:44:21   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:44:24   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:44:25   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:44:26   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:44:27   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:44:27   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:44:27   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:44:27   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:44:28   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:44:29   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : Navigated to next page
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Revolog Nebula 200/135
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Revolog Lazer 200/135
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Revolog Kosmos 200/135
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Revolog Kolor 200/36
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Stereo 200/135
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Solar 200/36
+2026-25-01 22:44:30   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Pacific 200/36
+2026-25-01 22:44:30   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-25-01 22:51:29   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-25-01 22:51:29   INFO [org.tests.FilterForFilms] : Test for filter films started
+2026-25-01 22:51:33   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-25-01 22:51:33   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-25-01 22:51:35   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:51:35   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 30
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : Checking page 1 with 12 products
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Кіноплівка Kodak Vision3 200Т
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm Fujicolor C200/36
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Плівка ilford SFX 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Texture 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 8. Product contains at least one of texts [135, 200] | Actual text: Revolog Volvox 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla I 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Tesla 2 200/135
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Rasp 200/35
+2026-25-01 22:51:36   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog Plexus 200/135
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : Navigated to next page
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : Checking page 2 with 12 products
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Revolog Lazer 200/135
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Revolog Kosmos 200/135
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : 4. Product contains at least one of texts [135, 200] | Actual text: Revolog Kolor 200/36
+2026-25-01 22:51:37   INFO [org.pages.PlivkaPage] : 5. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Stereo 200/135
+2026-25-01 22:51:38   INFO [org.pages.PlivkaPage] : 6. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Solar 200/36
+2026-25-01 22:51:38   INFO [org.pages.PlivkaPage] : 7. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Pacific 200/36
+2026-25-01 22:51:38   WARN [org.pages.PlivkaPage] : 8. Product does NOT contain any of texts [135, 200] | Actual text: Revolog Dubblefilm Pacific
+2026-25-01 22:51:38   INFO [org.pages.PlivkaPage] : 9. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Jelly 200/36
+2026-25-01 22:51:38   INFO [org.pages.PlivkaPage] : 10. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Bubblegum 200/36
+2026-25-01 22:51:38   INFO [org.pages.PlivkaPage] : 11. Product contains at least one of texts [135, 200] | Actual text: Revolog Dubblefilm Apollo 200/36
+2026-25-01 22:51:38   INFO [org.pages.PlivkaPage] : 12. Product contains at least one of texts [135, 200] | Actual text: Revolog 600nm 200/135
+2026-25-01 22:51:39   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-25-01 22:51:39   INFO [org.pages.PlivkaPage] : Navigated to next page
+2026-25-01 22:51:39   INFO [org.pages.PlivkaPage] : Checking page 3 with 12 products
+2026-25-01 22:51:39   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Revolog Nebula 200/135
+2026-25-01 22:51:39   INFO [org.tests.FilterForFilms] : Browser was closed

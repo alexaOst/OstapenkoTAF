@@ -5,6 +5,10 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.asserts.SoftAssert;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class PlivkaPage extends ParentPage {
 
@@ -39,6 +43,12 @@ public class PlivkaPage extends ParentPage {
 
     @FindBy(xpath = "//span[@class='gf-summary']//b")
     private WebElement productListCounter;
+
+    @FindBy(xpath = "//div[@class='h4 spf-product-card__title']")
+    private List<WebElement> productLocator;
+
+    @FindBy(className = "next")
+    private WebElement nextPageButton;
 
     public PlivkaPage checkIsRedirectToPlivkaPage() {
         checkUrl();
@@ -94,4 +104,65 @@ public class PlivkaPage extends ParentPage {
         }
         return this;
     }
+
+
+    private List<WebElement> getProductList() {
+        waitUntilAllVisible(productLocator, 5);
+        return productLocator;
+    }
+
+    public PlivkaPage checkProductListItemsHaveTextInLabels(String... productTitle) {
+
+        SoftAssert softAssert = new SoftAssert();
+        int pageNumber = 1;
+
+        do {
+            List<WebElement> productList = getProductList();
+
+            logger.info("Checking page " + pageNumber + " with " + productList.size() + " products");
+
+            for (int i = 0; i < productList.size(); i++) {
+                WebElement product = productList.get(i);
+                String productText = product.getText();
+
+                boolean containsAny = Arrays.stream(productTitle)
+                        .anyMatch(productText::contains);
+
+                if (!containsAny) {
+                    logger.warn((i + 1) + ". Product does NOT contain any of texts " +
+                            Arrays.toString(productTitle) +
+                            " | Actual text: " + productText);
+                } else {
+                    logger.info((i + 1) + ". Product contains at least one of texts " +
+                            Arrays.toString(productTitle) +
+                            " | Actual text: " + productText);
+                }
+
+                softAssert.assertTrue(containsAny,
+                        "Product does not contain any of expected texts " +
+                                Arrays.toString(productTitle) +
+                                ". Actual text: " + productText);
+            }
+
+            pageNumber++;
+
+
+        } while (goToNextPageIfExists());
+
+        return this;
+    }
+
+    private boolean goToNextPageIfExists() {
+        if (isElementDisplayed(nextPageButton) && nextPageButton.isEnabled()) {
+            clickOnElement(nextPageButton);
+            logger.info("Navigated to next page");
+            waitUntilAllVisible(productLocator, 20); // дочекаємось нових продуктів
+
+            return true;
+        } else {
+            logger.info("Next page button not found or disabled — це остання сторінка");
+            return false;
+        }
+    }
+
 }

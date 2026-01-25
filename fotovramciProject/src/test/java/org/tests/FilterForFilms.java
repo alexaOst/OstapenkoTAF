@@ -29,12 +29,9 @@ public class FilterForFilms extends BaseTest {
                 .check200ISOLabel("200")
                 .checkProductListIsNotEmpty()
 
+                .checkProductListItemsHaveTextInLabels("135", "200");
 
-        ;
-
-
-
-        // TO DO implement test steps for filtering films
+        // TODO implement test steps for filtering films
         logger.info("Test for filter films completed");
     }
 }
