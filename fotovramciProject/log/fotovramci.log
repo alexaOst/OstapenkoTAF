@@ -1462,3 +1462,26 @@
 Збільшити кількість для Плівка Kodak Gold 200/135 (1 котушка)
 Видалити
 2026-28-01 00:07:36   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-28-01 00:13:34   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-28-01 00:13:39   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-28-01 00:13:40   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-28-01 00:13:41   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-28-01 00:13:41   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-28-01 00:13:41   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-28-01 00:13:41   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-28-01 00:13:41   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-28-01 00:13:41   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : Checking 3 elements on single page
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : 1. Element contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : 2. Element contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-28-01 00:13:42   INFO [org.pages.PlivkaPage] : 3. Element contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-28-01 00:13:47   INFO [org.pages.PlivkaPage] : Next page button not found — це остання сторінка
+2026-28-01 00:13:47   INFO [org.tests.FilterForFilms] : TC001 completed
+2026-28-01 00:13:48   INFO [org.tests.FilterForFilms] : Browser was closed

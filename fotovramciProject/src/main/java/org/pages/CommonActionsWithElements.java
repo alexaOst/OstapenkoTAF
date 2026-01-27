@@ -168,34 +168,11 @@ public class CommonActionsWithElements {
      * @param expectedTexts тексти, які має містити кожен елемент
      */
     protected void checkElementsHaveText(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
+
         SoftAssert softAssert = new SoftAssert();
-        int pageNumber = 1;
 
         do {
-            List<WebElement> currentList = getElementsList(elements, timeoutSec);
-            logger.info("Checking page " + pageNumber + " with " + currentList.size() + " elements");
-
-            for (int i = 0; i < currentList.size(); i++) {
-                WebElement element = currentList.get(i);
-                String text = element.getText();
-
-                boolean containsAny = Arrays.stream(expectedTexts).anyMatch(text::contains);
-
-                if (!containsAny) {
-                    logger.warn((i + 1) + ". Element does NOT contain any of texts " +
-                            Arrays.toString(expectedTexts) + " | Actual text: " + text);
-                } else {
-                    logger.info((i + 1) + ". Element contains at least one of texts " +
-                            Arrays.toString(expectedTexts) + " | Actual text: " + text);
-                }
-
-                softAssert.assertTrue(containsAny,
-                        "Element does not contain any of expected texts " +
-                                Arrays.toString(expectedTexts) +
-                                ". Actual text: " + text);
-            }
-
-            pageNumber++;
+        checkElementsHaveTextSinglePage(elements, timeoutSec, expectedTexts);
 
         } while (goToNextPageIfExistsSafe(getElementsList(elements, timeoutSec), nextButtonBy));
 
