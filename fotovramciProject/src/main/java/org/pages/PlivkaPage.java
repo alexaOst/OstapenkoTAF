@@ -52,13 +52,12 @@ public class PlivkaPage extends ParentPage {
     @FindBy(xpath = "//div[@class='h4 spf-product-card__title']")
     private List<WebElement> productLocator;
 
-//    @FindBy(className = "next")
-//    private WebElement nextPageButton;
-
-
+    private By nextButtonLocator = By.className("next");
 
     public PlivkaPage checkIsRedirectToPlivkaPage() {
         checkUrl();
+        logger.info("Plivka page was opened " + webDriver.getCurrentUrl());
+
         // TODO check some unique element on the page
         return this;
     }
@@ -112,52 +111,14 @@ public class PlivkaPage extends ParentPage {
         return this;
     }
 
-
-    private List<WebElement> getProductList() {
-        waitUntilAllVisible(productLocator, 5);
-        return productLocator;
-    }
-
     public PlivkaPage checkProductListItemsHaveTextInLabels(String... productTitle) {
+//        checkElementsHaveTextSinglePage(productLocator, 5, productTitle);
+        checkElementsHaveText(productLocator, nextButtonLocator, 5, productTitle);
 
-        SoftAssert softAssert = new SoftAssert();
-        int pageNumber = 1;
-
-        do {
-            List<WebElement> productList = getProductList();
-
-            logger.info("Checking page " + pageNumber + " with " + productList.size() + " products");
-
-            for (int i = 0; i < productList.size(); i++) {
-                WebElement product = productList.get(i);
-                String productText = product.getText();
-
-                boolean containsAny = Arrays.stream(productTitle)
-                        .anyMatch(productText::contains);
-
-                if (!containsAny) {
-                    logger.warn((i + 1) + ". Product does NOT contain any of texts " +
-                            Arrays.toString(productTitle) +
-                            " | Actual text: " + productText);
-                } else {
-                    logger.info((i + 1) + ". Product contains at least one of texts " +
-                            Arrays.toString(productTitle) +
-                            " | Actual text: " + productText);
-                }
-
-                softAssert.assertTrue(containsAny,
-                        "Product does not contain any of expected texts " +
-                                Arrays.toString(productTitle) +
-                                ". Actual text: " + productText);
-            }
-
-            pageNumber++;
-
-        } while (goToNextPageIfExistsSafe());
-
-        softAssert.assertAll();
         return this;
     }
+
+
 
     private boolean goToNextPageIfExistsSafe() {
         List<WebElement> buttons = webDriver.findElements(By.className("next"));
@@ -175,7 +136,7 @@ public class PlivkaPage extends ParentPage {
             }
 
             // зберігаємо старі продукти для перевірки оновлення DOM
-            List<WebElement> oldProducts = getProductList();
+            List<WebElement> oldProducts = getElementsList(productLocator, 5);
 
             clickOnElement(nextPageButton);
             logger.info("Navigated to next page");
@@ -197,31 +158,14 @@ public class PlivkaPage extends ParentPage {
         }
     }
 
+    public ProductDetailsPage clickOnFirstPlivkaOnPage() {
 
-
-    private boolean goToNextPageIfExists() {
-        List<WebElement> buttons = webDriver.findElements(By.className("next")); // знайдемо всі кнопки
-        if (!buttons.isEmpty()) {
-            WebElement nextPageButton = buttons.get(0);
-            try {
-                if (nextPageButton.isDisplayed() && nextPageButton.isEnabled()) {
-                    clickOnElement(nextPageButton);
-                    logger.info("Navigated to next page");
-//                    waitUntilAllVisible(productLocator, 30); // дочекаємось нових продуктів
-                    return true;
-                } else {
-                    logger.info("Next page button is disabled — це остання сторінка");
-                    return false;
-                }
-            } catch (StaleElementReferenceException e) {
-                logger.warn("Next page button became stale — можливо, це остання сторінка");
-                return false;
-            }
-        } else {
-            logger.info("Next page button not found — це остання сторінка");
-            return false;
+        List<WebElement> products = getElementsList(productLocator, 5);
+        if (products.isEmpty()) {
+            logger.error("No products found on the page to click");
+            Assert.fail("No products found on the page to click");
         }
+        clickOnElement(products.get(0));
+        return new ProductDetailsPage(webDriver);
     }
-
-
 }

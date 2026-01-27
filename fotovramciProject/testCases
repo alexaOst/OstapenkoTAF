@@ -22,14 +22,14 @@ Precondition: User is on Home page
 Steps to reproduce:
 1. On Home page tap “Buy”
 2. Open Film category
-3. Add any film product to cart
-4. Return to Home page
-5. Tap “Buy”
-6. Open Camera category
-7. Add any camera product to cart
+3. Add any film product to cart (open product details page and tap “Add to cart”)
+4. Close cart overlay
+5. Return to Home page
+6. Tap “Buy”
+7. Open Camera category (open product details page and tap “Add to cart”)
+8. Add any camera product to cart
 
 Expected result:
-* Cart counter is displayed
 * Cart counter equals 2
 * Cart contains two different product types:
     * one film

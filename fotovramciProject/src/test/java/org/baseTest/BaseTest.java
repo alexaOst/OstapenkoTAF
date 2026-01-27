@@ -13,7 +13,7 @@ public class BaseTest {
 
     private WebDriver webDriver;
 
-    protected Logger logger = Logger.getLogger(getClass());
+    public Logger logger = Logger.getLogger(getClass());
 
     protected PageProvider pageProvider;
 

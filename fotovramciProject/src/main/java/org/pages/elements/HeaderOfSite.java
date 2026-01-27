@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pages.CommonActionsWithElements;
+import org.pages.FotokameryPage;
 import org.pages.HomePage;
 import org.pages.PlivkaPage;
 
@@ -23,10 +24,15 @@ public class HeaderOfSite extends CommonActionsWithElements {
     @FindBy(xpath = "//a[@href='/collections/plivka']")
     private WebElement plivkaButton;
 
+    @FindBy(xpath = "//a[@href='/collections/fotokamery']")
+    private WebElement fotokameryButton;
+
     @FindBy(xpath = "//div[@data-opened='true']")
     private WebElement openedDropdown;
 
     Logger logger = Logger.getLogger(getClass());
+
+
 
     public HeaderOfSite(WebDriver webDriver) {
         super(webDriver);
@@ -43,6 +49,15 @@ public class HeaderOfSite extends CommonActionsWithElements {
         clickOnElement(plivkaButton);
         return new PlivkaPage(webDriver);
     }
+
+    public FotokameryPage clickOnLinkFotokamery() {
+        waitForElement(openedDropdown, 5);
+        waitForElement(fotokameryButton, 5);
+        clickOnElement(fotokameryButton);
+        return new FotokameryPage(webDriver);
+    }
+
+
 
 
 }

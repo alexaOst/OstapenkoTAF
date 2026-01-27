@@ -2,9 +2,14 @@ package org.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public abstract class ParentPage extends CommonActionsWithElements {
     protected String baseUrl = "https://fotovramci.com/";
+
+    public List<WebElement> webelementsList;
 
     public ParentPage(WebDriver webDriver) {
         super(webDriver);
@@ -23,5 +28,6 @@ public abstract class ParentPage extends CommonActionsWithElements {
                         "\n Actual url: " + webDriver.getCurrentUrl(),
                 webDriver.getCurrentUrl().matches(baseUrl + getRelativeUrl()));
     }
+
 
 }

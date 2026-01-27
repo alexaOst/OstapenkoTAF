@@ -1067,3 +1067,398 @@
 2026-25-01 22:51:39   INFO [org.pages.PlivkaPage] : Checking page 3 with 12 products
 2026-25-01 22:51:39   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Revolog Nebula 200/135
 2026-25-01 22:51:39   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-27-01 22:08:10   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-27-01 22:08:16   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:08:16   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:08:17   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-27-01 22:08:18   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-27-01 22:08:19   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-27-01 22:09:48   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-27-01 22:09:52   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:09:52   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:09:54   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-27-01 22:09:54   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-27-01 22:09:55   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-27-01 22:12:18   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-27-01 22:12:24   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:12:24   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:12:25   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 22:12:26   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-27-01 22:12:27   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-27-01 22:12:27   INFO [org.pages.PlivkaPage] : Checking page 1 with 3 products
+2026-27-01 22:12:27   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-27-01 22:12:27   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-27-01 22:12:27   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-27-01 22:12:32   INFO [org.pages.PlivkaPage] : Next page button not found — це остання сторінка
+2026-27-01 22:12:32   INFO [org.tests.FilterForFilms] : TC001 completed
+2026-27-01 22:12:32   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-27-01 22:27:54   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:27:59   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:27:59   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:28:00   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:28:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:28:02   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 22:28:54   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:28:58   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:28:58   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:29:00   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:29:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:29:02   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 22:29:02   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 22:29:02   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 22:30:09   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:30:13   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:30:13   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:30:14   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:30:15   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 22:30:16   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:30:16   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 22:30:16   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 22:30:16   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 22:34:54   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:34:58   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:34:58   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:35:00   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:35:00   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 22:35:02   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:35:02   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 22:35:03   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 22:35:03   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 22:35:03   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 22:43:19   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:43:24   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:43:24   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:43:25   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:43:26   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 22:43:27   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:43:28   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 22:43:28   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 22:43:29   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 22:43:29   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 22:43:29   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 22:44:01   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:44:04   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:44:04   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:44:06   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:44:06   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 22:44:08   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:44:08   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 22:44:08   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 22:44:08   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 22:44:08   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 22:44:09   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 22:51:35   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 22:51:40   INFO [org.pages.HomePage] : Login page was opened by url https://fotovramci.com/
+2026-27-01 22:51:40   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 22:51:41   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 22:51:41   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 22:51:43   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 22:51:43   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 22:51:43   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 22:51:44   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 22:51:45   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 22:51:45   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 22:51:45   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:06:37   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:06:42   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:06:42   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:06:44   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:06:44   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:06:47   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:06:47   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:06:47   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:06:48   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:06:48   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:06:49   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:07:00   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:08:20   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:08:24   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:08:24   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:08:26   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:08:26   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:08:28   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:08:28   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:08:28   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:08:29   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:08:29   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:08:29   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:08:32   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:08:32   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:09:15   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:09:18   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:09:18   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:09:20   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:09:20   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:09:22   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:09:22   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:09:22   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:09:23   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:09:23   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:09:23   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:09:26   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:09:26   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:09:28   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:09:28   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:09:28   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:09:29   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:09:29   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 23:09:29   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:12:20   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:12:24   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:12:24   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:12:25   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:12:26   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:12:28   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:12:28   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:12:28   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:12:29   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:12:29   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:12:29   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:12:31   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:12:31   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:12:33   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:12:33   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:12:33   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:12:34   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:12:34   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:12:34   INFO [org.pages.elements.HeaderOfSite] : Text in element matches expected text: 2
+2026-27-01 23:12:34   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 23:12:34   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:15:14   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:15:18   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:15:18   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:15:20   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:15:20   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:15:22   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:15:22   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:15:22   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:15:23   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:15:23   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:15:24   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:15:26   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:15:26   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:15:28   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:15:28   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:15:28   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:15:29   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:15:29   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 2
+2026-27-01 23:15:29   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 23:15:29   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:25:26   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:25:31   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:25:31   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:25:33   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:25:33   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:25:35   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:25:35   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:25:35   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:25:36   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:25:37   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:25:37   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:25:39   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:25:39   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:25:40   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:25:40   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:25:41   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:25:41   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:25:41   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 2
+2026-27-01 23:25:41   INFO [org.pages.ProductDetailsPage] : Items are displayed in different rows in cart modal window
+2026-27-01 23:25:41   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 23:25:42   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:26:40   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:26:44   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:26:44   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:26:45   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:26:45   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:26:47   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:26:47   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:26:47   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:26:48   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:26:49   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:27:23   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:27:27   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:27:27   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:27:29   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:27:29   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:27:31   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:27:31   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:27:31   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:27:32   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:27:32   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 1
+2026-27-01 23:27:33   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:27:33   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:27:35   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:27:35   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:27:36   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:27:36   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:27:36   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:27:37   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:27:38   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:30:12   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:30:15   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:30:16   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:30:17   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:30:17   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:30:19   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:30:19   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:30:19   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:30:20   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:30:21   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 1
+2026-27-01 23:30:21   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:30:21   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:30:23   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:30:23   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:30:25   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:30:25   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:30:25   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:30:26   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:30:26   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 2
+2026-27-01 23:30:26   INFO [org.pages.ProductDetailsPage] : Items are displayed in different rows in cart modal window
+2026-27-01 23:30:26   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 23:30:27   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:40:54   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-27-01 23:40:57   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:40:58   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:40:59   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:40:59   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : Checking page 1 with 3 products
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : 1. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : 2. Product contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-27-01 23:41:00   INFO [org.pages.PlivkaPage] : 3. Product contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-27-01 23:41:05   INFO [org.pages.PlivkaPage] : Next page button not found — це остання сторінка
+2026-27-01 23:41:05   INFO [org.tests.FilterForFilms] : TC001 completed
+2026-27-01 23:41:05   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-27-01 23:43:35   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:43:39   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:43:39   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:43:40   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:43:40   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:43:42   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:43:42   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:43:42   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:43:43   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:43:43   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 1
+2026-27-01 23:43:44   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:43:44   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:43:54   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:44:13   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:44:17   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:44:17   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:44:19  ERROR [org.pages.elements.HeaderOfSite] : Error while working with element
+2026-27-01 23:44:19   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:45:05   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-27-01 23:45:08   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:45:09   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:45:10   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:45:10   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:45:12   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:45:12   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-27-01 23:45:12   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:45:13   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:45:13   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 1
+2026-27-01 23:45:13   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-27-01 23:45:13   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:45:16   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:45:16   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-27-01 23:45:17   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-27-01 23:45:17   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-27-01 23:45:18   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-27-01 23:45:18   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-27-01 23:45:18   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 2
+2026-27-01 23:45:18   INFO [org.pages.ProductDetailsPage] : Items are displayed in different rows in cart modal window
+2026-27-01 23:45:18   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-27-01 23:45:19   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-27-01 23:55:15   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-27-01 23:55:21   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-27-01 23:55:21   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-27-01 23:55:23   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:55:23   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : Checking 3 elements on single page
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : 1. Element contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : 2. Element contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-27-01 23:55:24   INFO [org.pages.PlivkaPage] : 3. Element contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-27-01 23:55:24   INFO [org.tests.FilterForFilms] : TC001 completed
+2026-27-01 23:55:24   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-28-01 00:07:22   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-28-01 00:07:26   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-28-01 00:07:26   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-28-01 00:07:27   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-28-01 00:07:27   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-28-01 00:07:29   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-28-01 00:07:29   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-28-01 00:07:29   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-28-01 00:07:30   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-28-01 00:07:31   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 1
+2026-28-01 00:07:31   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-28-01 00:07:31   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-28-01 00:07:33   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-28-01 00:07:33   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-28-01 00:07:35   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-28-01 00:07:35   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-28-01 00:07:35   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-28-01 00:07:36   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-28-01 00:07:36   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 2
+2026-28-01 00:07:36   INFO [org.pages.ProductDetailsPage] : Items are displayed in different rows in cart modal window
+2026-28-01 00:07:36   INFO [org.pages.ProductDetailsPage] : Checking 2 elements on single page
+2026-28-01 00:07:36   WARN [org.pages.ProductDetailsPage] : 1. Element does NOT contain any of texts [камера, плівка] | Actual text: КАМЕРА POLAROID NOW GEN 3, PEBBLE WHITE
+₴7,200.00
+Зменшити кількість для Камера Polaroid Now Gen 3, Pebble White
+Збільшити кількість для Камера Polaroid Now Gen 3, Pebble White
+Видалити
+2026-28-01 00:07:36   WARN [org.pages.ProductDetailsPage] : 2. Element does NOT contain any of texts [камера, плівка] | Actual text: ПЛІВКА KODAK GOLD 200/135 (1 КОТУШКА)
+₴650.00
+Зменшити кількість для Плівка Kodak Gold 200/135 (1 котушка)
+Збільшити кількість для Плівка Kodak Gold 200/135 (1 котушка)
+Видалити
+2026-28-01 00:07:36   INFO [org.tests.AddProductsToCart] : Browser was closed

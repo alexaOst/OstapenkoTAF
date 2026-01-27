@@ -10,10 +10,15 @@ public class PageProvider {
         this.webDriver = webDriver;
     }
 
-
     public HomePage getHomePage() {
         return new HomePage(webDriver);
     }
 
-    public PlivkaPage getPlivkaPage() { return new PlivkaPage(webDriver); }
+    public PlivkaPage getPlivkaPage() {
+        return new PlivkaPage(webDriver);
+    }
+
+    public FotokameryPage getFotokameryPage() {
+        return new FotokameryPage(webDriver);
+    }
 }
