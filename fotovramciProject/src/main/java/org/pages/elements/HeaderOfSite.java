@@ -1,20 +1,11 @@
 package org.pages.elements;
 
-import org.apache.log4j.Logger;
-import org.checkerframework.checker.units.qual.K;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pages.CommonActionsWithElements;
 import org.pages.FotokameryPage;
-import org.pages.HomePage;
 import org.pages.PlivkaPage;
-
-import java.time.Duration;
 
 public class HeaderOfSite extends CommonActionsWithElements {
 
@@ -29,6 +20,7 @@ public class HeaderOfSite extends CommonActionsWithElements {
 
     @FindBy(xpath = "//div[@data-opened='true']")
     private WebElement openedDropdown;
+
     @FindBy(xpath = "//a[@href='/search']")
     private WebElement searchButton;
 
@@ -57,7 +49,6 @@ public class HeaderOfSite extends CommonActionsWithElements {
         clickOnElement(fotokameryButton);
         return new FotokameryPage(webDriver);
     }
-
 
     public HeaderOfSite clickOnSearch() {
         clickOnElement(searchButton);

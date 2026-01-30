@@ -2,6 +2,7 @@ package org.pages;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class SearchResultPage extends ParentPage {
+
+    private By nextButtonLocator = By.className("pagination__next-button");
 
     public SearchResultPage(WebDriver webDriver) {
         super(webDriver);
@@ -44,8 +47,11 @@ public class SearchResultPage extends ParentPage {
 
     public SearchResultPage checkProductListItemsHaveTextInLabels(String... productTitle) {
 
-        checkElementsHaveText(productList, 5, productTitle);
+//        checkElementsHaveText(productList, 5, productTitle);
+        checkElementsHaveTextAcrossPageges(productList, nextButtonLocator, 5, productTitle);
+
         return this;
+        
     }
 
 

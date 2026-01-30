@@ -78,7 +78,6 @@ public class CommonActionsWithElements {
         }
     }
 
-
     protected void checkTextInElement(WebElement webElement, String expectedText) {
         try {
             String actualText = webElement.getText();
@@ -94,7 +93,6 @@ public class CommonActionsWithElements {
             printErrorAndStopTest();
         }
     }
-
 
     protected void waitUntilAllVisible(List<WebElement> elements, int timeoutSec) {
         new WebDriverWait(webDriver, Duration.ofSeconds(timeoutSec))
@@ -181,7 +179,6 @@ public class CommonActionsWithElements {
         softAssert.assertAll();
     }
 
-
     protected void checkElementsHaveText(List<WebElement> elements, int timeoutSec, String... expectedTexts) {
         List<WebElement> currentList = getElementsList(elements, timeoutSec);
         logger.info("Checking " + currentList.size() + " elements on single page");
@@ -213,9 +210,6 @@ public class CommonActionsWithElements {
 
         softAssert.assertAll();
     }
-
-
-
 
     private void printErrorAndStopTest() {
         logger.error("Error while working with element");

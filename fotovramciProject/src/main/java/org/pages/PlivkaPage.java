@@ -50,13 +50,11 @@ public class PlivkaPage extends ParentPage {
     @FindBy(xpath = "//div[@class='h4 spf-product-card__title']")
     private List<WebElement> productLocator;
 
-    private By nextButtonLocator = By.className("next");
+    private By nextButtonLocator = By.className("next"); //pagination__next-button
 
     public PlivkaPage checkIsRedirectToPlivkaPage() {
         checkUrl();
         logger.info("Plivka page was opened " + webDriver.getCurrentUrl());
-
-        // TODO check some unique element on the page
         return this;
     }
 
@@ -105,50 +103,8 @@ public class PlivkaPage extends ParentPage {
     }
 
     public PlivkaPage checkProductListItemsHaveTextInLabels(String... productTitle) {
-//        checkElementsHaveTextSinglePage(productLocator, 5, productTitle);
         checkElementsHaveTextAcrossPageges(productLocator, nextButtonLocator, 5, productTitle);
-
         return this;
-    }
-
-
-
-    private boolean goToNextPageIfExistsSafe() {
-        List<WebElement> buttons = webDriver.findElements(By.className("next"));
-        if (buttons.isEmpty()) {
-            logger.info("Next page button not found — це остання сторінка");
-            return false;
-        }
-
-        WebElement nextPageButton = buttons.get(0);
-
-        try {
-            if (!nextPageButton.isDisplayed() || !nextPageButton.isEnabled()) {
-                logger.info("Next page button is disabled — це остання сторінка");
-                return false;
-            }
-
-            // зберігаємо старі продукти для перевірки оновлення DOM
-            List<WebElement> oldProducts = getElementsList(productLocator, 5);
-
-            clickOnElement(nextPageButton);
-            logger.info("Navigated to next page");
-
-            // чекаємо, поки старі продукти стануть неактуальними (DOM оновиться)
-            if (!oldProducts.isEmpty()) {
-                WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(30));
-                wait.until(ExpectedConditions.stalenessOf(oldProducts.get(0)));
-            }
-
-            // дочекаємось нових продуктів
-            waitUntilAllVisible(productLocator, 30);
-
-            return true;
-
-        } catch (StaleElementReferenceException e) {
-            logger.warn("Next page button became stale — можливо, це остання сторінка");
-            return false;
-        }
     }
 
     public ProductDetailsPage clickOnFirstPlivkaOnPage() {

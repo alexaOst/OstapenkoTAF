@@ -15,7 +15,6 @@ public abstract class ParentPage extends CommonActionsWithElements {
     protected String baseUrl = "https://fotovramci.com/";
     private Logger logger = Logger.getLogger(getClass());
 
-
     public List<WebElement> webelementsList;
 
     public ParentPage(WebDriver webDriver) {

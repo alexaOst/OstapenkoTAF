@@ -24,7 +24,6 @@ public class FotokameryPage extends ParentPage{
 
     public FotokameryPage checkIsRedirectToFotokameryPage() {
         checkUrl();
-        // TODO check some unique element on the page
         logger.info("Fotokamery page was opened " + webDriver.getCurrentUrl());
         return this;
     }
@@ -38,6 +37,5 @@ public class FotokameryPage extends ParentPage{
         clickOnElement(products.get(0));
         return new ProductDetailsPage(webDriver);
     }
-
 
 }

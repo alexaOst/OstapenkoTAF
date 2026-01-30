@@ -1780,3 +1780,249 @@
 Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
 Автор: Katya Gridina 12 липень 2017 р.
 2026-30-01 23:39:32   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:49:38   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:50:09   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:50:11   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:50:16   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:50:32   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:50:32   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:50:32   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:50:33   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:50:33   INFO [org.pages.SearchResultPage] : Checking 24 elements on single page
+2026-30-01 23:50:34   INFO [org.pages.SearchResultPage] : 1. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00
+2026-30-01 23:50:34   INFO [org.pages.SearchResultPage] : 2. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00
+2026-30-01 23:50:35   INFO [org.pages.SearchResultPage] : 3. Element contains at least one of texts [kodak] | Actual text: Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00
+2026-30-01 23:50:35   INFO [org.pages.SearchResultPage] : 4. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00
+2026-30-01 23:50:36   INFO [org.pages.SearchResultPage] : 5. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:50:36   INFO [org.pages.SearchResultPage] : 6. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:50:36   INFO [org.pages.SearchResultPage] : 7. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00
+2026-30-01 23:50:36   INFO [org.pages.SearchResultPage] : 8. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00
+2026-30-01 23:50:36   INFO [org.pages.SearchResultPage] : 9. Element contains at least one of texts [kodak] | Actual text: KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:50:36   WARN [org.pages.SearchResultPage] : 10. Element does NOT contain any of texts [kodak] | Actual text: Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00
+2026-30-01 23:50:36   WARN [org.pages.SearchResultPage] : 11. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00
+2026-30-01 23:50:36   WARN [org.pages.SearchResultPage] : 12. Element does NOT contain any of texts [kodak] | Actual text: Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00
+2026-30-01 23:50:36   WARN [org.pages.SearchResultPage] : 13. Element does NOT contain any of texts [kodak] | Actual text: Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 14. Element does NOT contain any of texts [kodak] | Actual text: Сканування плівки 110 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 15. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 16. Element does NOT contain any of texts [kodak] | Actual text: Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 17. Element does NOT contain any of texts [kodak] | Actual text: Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 18. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 19. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 20. Element does NOT contain any of texts [kodak] | Actual text: РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 21. Element does NOT contain any of texts [kodak] | Actual text: WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 22. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 23. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:50:37   WARN [org.pages.SearchResultPage] : 24. Element does NOT contain any of texts [kodak] | Actual text: НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:50:38   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:51:31   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:52:01   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:52:04   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:52:09   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:52:22   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:52:22   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:52:22   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:52:23   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:52:23   INFO [org.pages.SearchResultPage] : Checking 24 elements on single page
+2026-30-01 23:52:24   INFO [org.pages.SearchResultPage] : 1. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00
+2026-30-01 23:52:24   INFO [org.pages.SearchResultPage] : 2. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00
+2026-30-01 23:52:24   INFO [org.pages.SearchResultPage] : 3. Element contains at least one of texts [kodak] | Actual text: Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00
+2026-30-01 23:52:24   INFO [org.pages.SearchResultPage] : 4. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00
+2026-30-01 23:52:24   INFO [org.pages.SearchResultPage] : 5. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:52:25   INFO [org.pages.SearchResultPage] : 6. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:52:25   INFO [org.pages.SearchResultPage] : 7. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00
+2026-30-01 23:52:25   INFO [org.pages.SearchResultPage] : 8. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00
+2026-30-01 23:52:25   INFO [org.pages.SearchResultPage] : 9. Element contains at least one of texts [kodak] | Actual text: KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 10. Element does NOT contain any of texts [kodak] | Actual text: Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 11. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 12. Element does NOT contain any of texts [kodak] | Actual text: Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 13. Element does NOT contain any of texts [kodak] | Actual text: Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 14. Element does NOT contain any of texts [kodak] | Actual text: Сканування плівки 110 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 15. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00
+2026-30-01 23:52:25   WARN [org.pages.SearchResultPage] : 16. Element does NOT contain any of texts [kodak] | Actual text: Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 17. Element does NOT contain any of texts [kodak] | Actual text: Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 18. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 19. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 20. Element does NOT contain any of texts [kodak] | Actual text: РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 21. Element does NOT contain any of texts [kodak] | Actual text: WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 22. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 23. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:52:26   WARN [org.pages.SearchResultPage] : 24. Element does NOT contain any of texts [kodak] | Actual text: НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:52:26   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:59:52   INFO [org.tests.Search] : Browser was opened
+2026-31-01 00:00:19   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 00:00:22   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 00:00:26   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 00:00:40   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 00:00:40   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 00:00:40   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 00:00:41   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 00:00:41   INFO [org.pages.SearchResultPage] : Checking 24 elements on single page
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 1. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 2. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 3. Element contains at least one of texts [kodak] | Actual text: Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 4. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 5. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 6. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 7. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00
+2026-31-01 00:00:42   INFO [org.pages.SearchResultPage] : 8. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00
+2026-31-01 00:00:43   INFO [org.pages.SearchResultPage] : 9. Element contains at least one of texts [kodak] | Actual text: KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 10. Element does NOT contain any of texts [kodak] | Actual text: Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 11. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 12. Element does NOT contain any of texts [kodak] | Actual text: Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 13. Element does NOT contain any of texts [kodak] | Actual text: Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 14. Element does NOT contain any of texts [kodak] | Actual text: Сканування плівки 110 типу
+Звичайна ціна
+₴250.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 15. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 16. Element does NOT contain any of texts [kodak] | Actual text: Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 17. Element does NOT contain any of texts [kodak] | Actual text: Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00
+2026-31-01 00:00:43   WARN [org.pages.SearchResultPage] : 18. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00
+2026-31-01 00:00:44   WARN [org.pages.SearchResultPage] : 19. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00
+2026-31-01 00:00:44   WARN [org.pages.SearchResultPage] : 20. Element does NOT contain any of texts [kodak] | Actual text: РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:00:44   WARN [org.pages.SearchResultPage] : 21. Element does NOT contain any of texts [kodak] | Actual text: WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:00:44   WARN [org.pages.SearchResultPage] : 22. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:00:44   WARN [org.pages.SearchResultPage] : 23. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:00:44   WARN [org.pages.SearchResultPage] : 24. Element does NOT contain any of texts [kodak] | Actual text: НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:00:44   INFO [org.tests.Search] : Browser was closed

@@ -35,7 +35,7 @@ public class AddProductsToCart extends BaseTest {
                 .checkItemsInModalWindowHaveTextInLabels("камера", "плівка");
 
 
-        // TODO refactor code for checking item's names
+        // TODO refactor code for checking item's names <- there is a problem with single page application
 
 
 
