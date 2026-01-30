@@ -21,4 +21,8 @@ public class PageProvider {
     public FotokameryPage getFotokameryPage() {
         return new FotokameryPage(webDriver);
     }
+
+    public SearchResultPage getSearchResultPage() {
+        return new SearchResultPage(webDriver);
+    }
 }

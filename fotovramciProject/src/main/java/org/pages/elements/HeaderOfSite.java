@@ -29,10 +29,11 @@ public class HeaderOfSite extends CommonActionsWithElements {
 
     @FindBy(xpath = "//div[@data-opened='true']")
     private WebElement openedDropdown;
+    @FindBy(xpath = "//a[@href='/search']")
+    private WebElement searchButton;
 
-    Logger logger = Logger.getLogger(getClass());
-
-
+    @FindBy(xpath = "//input[@class='gl-d-searchbox-input']")
+    private WebElement searchFiled;
 
     public HeaderOfSite(WebDriver webDriver) {
         super(webDriver);
@@ -58,6 +59,14 @@ public class HeaderOfSite extends CommonActionsWithElements {
     }
 
 
+    public HeaderOfSite clickOnSearch() {
+        clickOnElement(searchButton);
 
+        return this;
+    }
 
+    public HeaderOfSite enterTextIntoSearchInput(String inputText) {
+        clearAndEnterTextIntoElement(searchFiled, inputText);
+        return this;
+    }
 }

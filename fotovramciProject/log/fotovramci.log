@@ -1485,3 +1485,298 @@
 2026-28-01 00:13:47   INFO [org.pages.PlivkaPage] : Next page button not found — це остання сторінка
 2026-28-01 00:13:47   INFO [org.tests.FilterForFilms] : TC001 completed
 2026-28-01 00:13:48   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-30-01 22:13:53   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:14:22   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:14:26   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:14:31   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:14:45   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:14:45   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:17:51   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:18:19   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:18:23   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:18:27   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:18:41   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:18:42   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:22:38   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:23:06   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:23:09   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:23:14   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:23:28   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:23:28   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:24:40   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:25:09   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:25:12   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:25:17   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:25:30   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:25:31   INFO [org.pages.SearchResultPage] : Search query in URL is correct: kodak
+2026-30-01 22:25:31   INFO [org.tests.Search] : TC003 completed
+2026-30-01 22:25:31   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:26:26   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:26:57   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:26:59   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:27:04   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:27:18   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:27:18   INFO [org.pages.SearchResultPage] : Search query in URL is correct: 'kodak' , by URL: https://fotovramci.com/search?q=kodak
+2026-30-01 22:27:18   INFO [org.tests.Search] : TC003 completed
+2026-30-01 22:27:18   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:38:10   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:38:37   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:38:40   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:38:44   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:38:58   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:38:58   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 22:38:58   INFO [org.tests.Search] : TC003 completed
+2026-30-01 22:38:58   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:41:29   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:41:57   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:42:00   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:42:04   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:42:17   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:42:18   INFO [org.pages.SearchResultPage] : Current URL query string: q=kodak
+2026-30-01 22:42:18   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 22:42:18   INFO [org.tests.Search] : TC003 completed
+2026-30-01 22:42:18   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:43:10   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:43:38   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:43:42   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:43:48   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:44:04   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:44:04   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 22:44:04   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 22:44:04   INFO [org.tests.Search] : TC003 completed
+2026-30-01 22:44:05   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:47:38   INFO [org.tests.Search] : Browser was opened
+2026-30-01 22:48:05   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:48:07   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:48:12   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 22:48:25   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 22:48:26   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 22:48:26   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 22:48:26   INFO [org.tests.Search] : TC003 completed
+2026-30-01 22:48:26   INFO [org.tests.Search] : Browser was closed
+2026-30-01 22:56:51   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-30-01 22:57:20   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 22:57:22   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-30-01 22:57:49   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 22:57:51   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-30-01 22:57:54   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-30-01 22:57:54   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-30-01 22:57:56   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-30-01 22:57:56   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-30-01 22:57:58   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-30-01 22:58:00   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-30-01 22:58:00   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-30-01 22:58:01   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-30-01 22:58:01   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-30-01 22:58:03   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-30-01 22:58:03   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-30-01 22:58:03   INFO [org.pages.PlivkaPage] : Checking 3 elements on single page
+2026-30-01 22:58:03   INFO [org.pages.PlivkaPage] : 1. Element contains at least one of texts [135, 200] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+2026-30-01 22:58:04   INFO [org.pages.PlivkaPage] : 2. Element contains at least one of texts [135, 200] | Actual text: Плівка Fujifilm 200/135
+2026-30-01 22:58:04   INFO [org.pages.PlivkaPage] : 3. Element contains at least one of texts [135, 200] | Actual text: Плівка Kodak Color Plus 200/135
+2026-30-01 22:58:09   INFO [org.pages.PlivkaPage] : Next page button not found — це остання сторінка
+2026-30-01 22:58:09   INFO [org.tests.FilterForFilms] : TC001 completed
+2026-30-01 22:58:09   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-30-01 23:06:50   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:07:20   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:07:24   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:07:28   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:07:43   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:07:43   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:07:43   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:07:43   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:07:43   INFO [org.tests.Search] : TC003 completed
+2026-30-01 23:07:43   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:14:05   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:14:34   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:14:37   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:14:42   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:14:55   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:14:55   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:14:55   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:14:56   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:14:56   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:20:15   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:20:43   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:20:47   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:20:51   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:21:04   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:21:04   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:21:05   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:21:05   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:21:05   INFO [org.tests.Search] : TC003 completed
+2026-30-01 23:21:05   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:22:12   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:22:42   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:22:46   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:22:51   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:23:05   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:23:05   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:23:05   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:23:06   INFO [org.pages.SearchResultPage] : Input text value is: 
+2026-30-01 23:23:06   INFO [org.tests.Search] : TC003 completed
+2026-30-01 23:23:06   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:32:58   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:33:26   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:33:29   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:33:34   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:33:47   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:33:47   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:33:47   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:33:47   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:33:48   INFO [org.pages.SearchResultPage] : Checking 24 elements on single page
+2026-30-01 23:33:48   WARN [org.pages.SearchResultPage] : 1. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 2. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 3. Element does NOT contain any of texts [kodak] | Actual text: Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 4. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 5. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 6. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 7. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00
+2026-30-01 23:33:49   WARN [org.pages.SearchResultPage] : 8. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 9. Element does NOT contain any of texts [kodak] | Actual text: KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 10. Element does NOT contain any of texts [kodak] | Actual text: Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 11. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 12. Element does NOT contain any of texts [kodak] | Actual text: Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 13. Element does NOT contain any of texts [kodak] | Actual text: Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 14. Element does NOT contain any of texts [kodak] | Actual text: Сканування плівки 110 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 15. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 16. Element does NOT contain any of texts [kodak] | Actual text: Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 17. Element does NOT contain any of texts [kodak] | Actual text: Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 18. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 19. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 20. Element does NOT contain any of texts [kodak] | Actual text: РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:33:50   WARN [org.pages.SearchResultPage] : 21. Element does NOT contain any of texts [kodak] | Actual text: WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:33:51   WARN [org.pages.SearchResultPage] : 22. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:33:51   WARN [org.pages.SearchResultPage] : 23. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:33:51   WARN [org.pages.SearchResultPage] : 24. Element does NOT contain any of texts [kodak] | Actual text: НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:33:51   INFO [org.tests.Search] : Browser was closed
+2026-30-01 23:38:38   INFO [org.tests.Search] : Browser was opened
+2026-30-01 23:39:05   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-30-01 23:39:08   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-30-01 23:39:13   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-30-01 23:39:28   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-30-01 23:39:28   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-30-01 23:39:28   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-30-01 23:39:28   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-30-01 23:39:28   INFO [org.pages.SearchResultPage] : Checking 24 elements on single page
+2026-30-01 23:39:29   INFO [org.pages.SearchResultPage] : 1. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00
+2026-30-01 23:39:29   INFO [org.pages.SearchResultPage] : 2. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 3. Element contains at least one of texts [kodak] | Actual text: Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 4. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 5. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 6. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 7. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 8. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00
+2026-30-01 23:39:30   INFO [org.pages.SearchResultPage] : 9. Element contains at least one of texts [kodak] | Actual text: KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:39:30   WARN [org.pages.SearchResultPage] : 10. Element does NOT contain any of texts [kodak] | Actual text: Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 11. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 12. Element does NOT contain any of texts [kodak] | Actual text: Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 13. Element does NOT contain any of texts [kodak] | Actual text: Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 14. Element does NOT contain any of texts [kodak] | Actual text: Сканування плівки 110 типу
+Звичайна ціна
+₴250.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 15. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 16. Element does NOT contain any of texts [kodak] | Actual text: Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 17. Element does NOT contain any of texts [kodak] | Actual text: Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 18. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 19. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00
+2026-30-01 23:39:31   WARN [org.pages.SearchResultPage] : 20. Element does NOT contain any of texts [kodak] | Actual text: РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:39:32   WARN [org.pages.SearchResultPage] : 21. Element does NOT contain any of texts [kodak] | Actual text: WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:39:32   WARN [org.pages.SearchResultPage] : 22. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:39:32   WARN [org.pages.SearchResultPage] : 23. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:39:32   WARN [org.pages.SearchResultPage] : 24. Element does NOT contain any of texts [kodak] | Actual text: НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-30-01 23:39:32   INFO [org.tests.Search] : Browser was closed

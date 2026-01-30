@@ -9,10 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
-import java.util.Arrays;
 import java.util.List;
 
 public class PlivkaPage extends ParentPage {
@@ -102,18 +100,13 @@ public class PlivkaPage extends ParentPage {
     }
 
     public PlivkaPage checkProductListIsNotEmpty() {
-        if (productListCounter.getText().equals("0")) {
-            logger.error("Product list is empty!");
-            Assert.fail("Product list is empty!");
-        } else {
-            logger.info("Product list is not empty. Products found: " + productListCounter.getText());
-        }
+        checkProductsListIsNotEmpty(productListCounter);
         return this;
     }
 
     public PlivkaPage checkProductListItemsHaveTextInLabels(String... productTitle) {
 //        checkElementsHaveTextSinglePage(productLocator, 5, productTitle);
-        checkElementsHaveText(productLocator, nextButtonLocator, 5, productTitle);
+        checkElementsHaveTextAcrossPageges(productLocator, nextButtonLocator, 5, productTitle);
 
         return this;
     }

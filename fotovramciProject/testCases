@@ -45,14 +45,14 @@ Steps to reproduce:
 2. Search bar opens
 3. Enter “kodak” into the search input field
 4. Submit the search (tap Enter)
-5. Observe the displayed search results
+5. Observe the displayed search results + URL in the address bar
 
 Expected result / Assertions:
 * Search results page is displayed
 * All listed products contain “kodak” in the name
 * Product list is not empty
 * Search input retains the entered text “kodak”
-* Search results are relevant to the query
+* Search results are relevant to the query (URL check contains "search=kodak")
 
 #004 Out-of-stock product behavior (Kodak Color Plus 200/135)
 

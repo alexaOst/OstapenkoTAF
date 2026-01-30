@@ -84,7 +84,7 @@ public class ProductDetailsPage extends ParentPage {
 
     public ProductDetailsPage checkItemsInModalWindowHaveTextInLabels(String... productTitle) {
 
-        checkElementsHaveTextSinglePage(productLocator, 5, productTitle);
+        checkElementsHaveText(productLocator, 5, productTitle);
         return this;
     }
 

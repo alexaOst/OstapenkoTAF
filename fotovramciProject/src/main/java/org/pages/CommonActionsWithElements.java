@@ -2,10 +2,7 @@ package org.pages;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,12 +15,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 public class CommonActionsWithElements {
     protected WebDriver webDriver;
 
     private Logger logger = Logger.getLogger(getClass());
+    SoftAssert softAssert = new SoftAssert();
 
     public CommonActionsWithElements(WebDriver webDriver) {
         this.webDriver = webDriver;
@@ -117,12 +115,20 @@ public class CommonActionsWithElements {
         }
     }
 
-
+    protected void clearAndEnterTextIntoElement(WebElement webElement, String text) {
+        try {
+            webElement.clear();
+            webElement.sendKeys(text);
+            logger.info(text + " was inputed into element " + getElementName(webElement));
+        } catch (Exception e) {
+            printErrorAndStopTest();
+        }
+    }
 
     /**
      * Переходить на наступну сторінку списку
      */
-    protected boolean goToNextPageIfExistsSafe(List<WebElement> productList, By nextButtonLocator) {
+    protected boolean goToNextPage(List<WebElement> productList, By nextButtonLocator) {
         List<WebElement> buttons = webDriver.findElements(nextButtonLocator);
 
         if (buttons.isEmpty()) {
@@ -167,30 +173,29 @@ public class CommonActionsWithElements {
      * @param timeoutSec    час очікування видимості елементів
      * @param expectedTexts тексти, які має містити кожен елемент
      */
-    protected void checkElementsHaveText(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
-
-        SoftAssert softAssert = new SoftAssert();
+    protected void checkElementsHaveTextAcrossPageges(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
 
         do {
-        checkElementsHaveTextSinglePage(elements, timeoutSec, expectedTexts);
-
-        } while (goToNextPageIfExistsSafe(getElementsList(elements, timeoutSec), nextButtonBy));
-
+        checkElementsHaveText(elements, timeoutSec, expectedTexts);
+        } while (goToNextPage(getElementsList(elements, timeoutSec), nextButtonBy));
         softAssert.assertAll();
     }
 
 
-    protected void checkElementsHaveTextSinglePage(List<WebElement> elements, int timeoutSec, String... expectedTexts) {
-        SoftAssert softAssert = new SoftAssert();
-
+    protected void checkElementsHaveText(List<WebElement> elements, int timeoutSec, String... expectedTexts) {
         List<WebElement> currentList = getElementsList(elements, timeoutSec);
         logger.info("Checking " + currentList.size() + " elements on single page");
+
+        List<String> expectedLower = Arrays.stream(expectedTexts)
+                .map(String::toLowerCase)
+                .collect(Collectors.toList());
 
         for (int i = 0; i < currentList.size(); i++) {
             WebElement element = currentList.get(i);
             String text = element.getText();
+            String textLower = text.toLowerCase();
 
-            boolean containsAny = Arrays.stream(expectedTexts).anyMatch(text::contains);
+            boolean containsAny = expectedLower.stream().anyMatch(textLower::contains);
 
             if (!containsAny) {
                 logger.warn((i + 1) + ". Element does NOT contain any of texts " +
@@ -211,9 +216,31 @@ public class CommonActionsWithElements {
 
 
 
+
     private void printErrorAndStopTest() {
         logger.error("Error while working with element");
         Assert.fail("Error while working with element"); // wrote info into report
     }
+
+    public void pressEnter() {
+            new Actions(webDriver)
+                    .sendKeys(Keys.ENTER)
+                    .perform();
+            logger.info("Pressed ENTER");
+    }
+
+    public void checkProductsListIsNotEmpty(WebElement counterElement) {
+        String text = counterElement.getText(); // "72 елементів"
+
+        int productsCount = Integer.parseInt(text.replaceAll("\\D+", ""));
+
+        Assert.assertTrue(
+                "Product list is empty!",
+                productsCount > 0
+        );
+
+        logger.info("Product list is not empty. Products found: " + productsCount);
+    }
+
 
 }
