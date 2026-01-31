@@ -2026,3 +2026,921 @@
 Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
 Автор: Katya Gridina 12 липень 2017 р.
 2026-31-01 00:00:44   INFO [org.tests.Search] : Browser was closed
+2026-31-01 00:44:29   INFO [org.tests.Search] : Browser was opened
+2026-31-01 00:45:02   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 00:45:05   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 00:45:10   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 00:45:27   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 00:45:27   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 00:45:27   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 00:45:27   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 00:45:28   INFO [org.pages.SearchResultPage] : Checking 24 elements on single page
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 1. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 2. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 3. Element contains at least one of texts [kodak] | Actual text: Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 4. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 5. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 6. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00
+2026-31-01 00:45:29   INFO [org.pages.SearchResultPage] : 7. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00
+2026-31-01 00:45:30   INFO [org.pages.SearchResultPage] : 8. Element contains at least one of texts [kodak] | Actual text: Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00
+2026-31-01 00:45:30   INFO [org.pages.SearchResultPage] : 9. Element contains at least one of texts [kodak] | Actual text: KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 10. Element does NOT contain any of texts [kodak] | Actual text: Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 11. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 12. Element does NOT contain any of texts [kodak] | Actual text: Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 13. Element does NOT contain any of texts [kodak] | Actual text: Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 14. Element does NOT contain any of texts [kodak] | Actual text: Сканування плівки 110 типу
+Звичайна ціна
+₴250.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 15. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 16. Element does NOT contain any of texts [kodak] | Actual text: Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 17. Element does NOT contain any of texts [kodak] | Actual text: Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00
+2026-31-01 00:45:30   WARN [org.pages.SearchResultPage] : 18. Element does NOT contain any of texts [kodak] | Actual text: Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00
+2026-31-01 00:45:31   WARN [org.pages.SearchResultPage] : 19. Element does NOT contain any of texts [kodak] | Actual text: Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00
+2026-31-01 00:45:31   WARN [org.pages.SearchResultPage] : 20. Element does NOT contain any of texts [kodak] | Actual text: РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:45:31   WARN [org.pages.SearchResultPage] : 21. Element does NOT contain any of texts [kodak] | Actual text: WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:45:31   WARN [org.pages.SearchResultPage] : 22. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:45:31   WARN [org.pages.SearchResultPage] : 23. Element does NOT contain any of texts [kodak] | Actual text: FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:45:31   WARN [org.pages.SearchResultPage] : 24. Element does NOT contain any of texts [kodak] | Actual text: НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.
+2026-31-01 00:45:31   INFO [org.tests.Search] : Browser was closed
+2026-31-01 12:32:57   INFO [org.tests.Search] : Browser was opened
+2026-31-01 12:33:26   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 12:33:29   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 12:33:33   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 12:33:47   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 12:33:47   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 12:33:47   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 12:33:47   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 12:33:57   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:33:57   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:34:03   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:34:03   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:34:10   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:34:10   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:34:16   INFO [org.pages.SearchResultPage] : Next page button not found — це остання сторінка
+2026-31-01 12:34:16   INFO [org.tests.Search] : Browser was closed
+2026-31-01 12:38:44   INFO [org.tests.Search] : Browser was opened
+2026-31-01 12:39:12   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 12:39:16   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 12:39:22   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 12:39:36   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 12:39:37   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 12:39:37   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 12:39:37   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 12:39:37   INFO [org.pages.SearchResultPage] : Checking 24 elements on current page
+2026-31-01 12:39:38   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Color Plus 200/135
+Звичайна ціна
+₴650.00'
+2026-31-01 12:39:38   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 50D
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:38   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)
+Звичайна ціна
+₴650.00'
+2026-31-01 12:39:39   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135 (1 котушка)
+Звичайна ціна
+₴750.00'
+2026-31-01 12:39:39   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/135
+Звичайна ціна
+₴950.00'
+2026-31-01 12:39:39   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/135
+Звичайна ціна
+₴950.00'
+2026-31-01 12:39:39   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/120
+Звичайна ціна
+₴870.00'
+2026-31-01 12:39:39   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/135
+Звичайна ціна
+₴1,100.00'
+2026-31-01 12:39:39   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME
+Компанія Kodak оголосила про відновлення виробництва плівки Ektachrome! До такого рішен...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + скан кольорової плівки 110 типу
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, колір (С-41)
+Звичайна ціна
+₴500.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + базовий скан у TIFF, колір (С-41)
+Звичайна ціна
+₴300.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Базова проявка + скан кольорової плівки 135 типу | 120 типу
+Звичайна ціна
+₴250.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування плівки 110 типу
+Звичайна ціна
+₴250.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 15. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, ЧБ (D-76)
+Звичайна ціна
+₴500.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування одного кадру в максимальному розмірі JPG
+Звичайна ціна
+₴50.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 17. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm 200/135
+Звичайна ціна
+₴600.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/120
+Звичайна ціна
+₴250.00'
+2026-31-01 12:39:40   WARN [org.pages.SearchResultPage] : 19. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан JPG, кіноплівка (ECN-2)
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:41   WARN [org.pages.SearchResultPage] : 20. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM
+Варто зазначити, що автори старих рекламних кампаній теж проявляли кмітливість, винахід...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:41   WARN [org.pages.SearchResultPage] : 21. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА
+Слайд для плівкової фотографії - це як "Володар перснів" для фентезі, Шон Коннері для Б...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:41   WARN [org.pages.SearchResultPage] : 22. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ
+Ось і добігає кінця наша міні-серія про плівку. Сьогодні, в останній статті, ми розпо...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:41   WARN [org.pages.SearchResultPage] : 23. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ
+Ти відклацуєш чергову плівку і хочеш якнайшвидше розглянути нові кадри. Приходиш до н...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:41   WARN [org.pages.SearchResultPage] : 24. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ
+Ручне проявлення кольорової плівки, як бізнес-клас у літаку, - круто, дорого і не для в...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:48   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:39:48   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:39:48   INFO [org.pages.SearchResultPage] : Checking 24 elements on current page
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 1. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'АСИСТЕНТ З КАЙФУ: СЕРГІЙ ВОВК ПРО ПІДХІД ДО ФОТОГРАФІЇ, УЛЮБЛЕНІ ПЛІВКИ ТА ЕКСПЕРИМЕНТИ
+Це інтерв'ю про людину, для якої плівка водночас і частина лайфстайлу, і головний поміч...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: '"ХТОСЬ ШУКАЄ РЕФЕРЕНСИ В PINTEREST, Я Ж ШУКАЮ ЇХ У КІНО", — АРТУР МАЛІМОН ПРО РОБОТУ З МОДЕЛЯМИ, КІНО І ЛЮБОВ ДО РЕТРО
+Артур Малімон — сценарист у The Face Production , кіноман і фотограф. Ми поговорили про...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ПРОЯВКА ЗА КРОС-ПРОЦЕСОМ: ЩО ЦЕ ЗА МОНСТР?
+При прочитанні заголовка, найімовірніше, у тебе виникло запитання: що ж, чорт забирай, ...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: '#UKRAINEIS
+24 серпня Україна відзначить черговий день народження. У такий день просто необхідно да...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ГІД ЗА КОЛЬОРАМИ ПІД ЧАС ПРОЯВЛЕННЯ ЗА КРОС-ПРОЦЕСОМ
+Крос-процес - це коли плівку проявляють не за її "рідним" процесом, отримуючи нові косм...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'FILM SECRETS #2: ВИНАХІД ФОТОПЛІВКИ
+Для тих, хто любить копати глибше і хоче знати більше, ми написали цілу серію освіт...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ПЛІВКА-ОБОРОТЕНЬ: МОНОХРОМНА ILFORD XP2 SUPER
+Ilford XP2 Super - кольорова плівка, яка має вигляд чб. Наш друг і клієнт Антон два рок...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ЩО ПОКЛАСТИ ПІД ПОДУШКУ: 5 ІДЕЙ
+Увечері, напередодні Дня Святого Миколая, діти не можуть заснути, з трепетом чекаючи на...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'LOMOGRAPHY ОГЛЯД ПЛІВКИ
+Скільки часу і терпіння знадобиться, щоб знайти улюблену плівку і бути з нею до кінця с...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:49   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ЗАПИСКИ ХОРОШИХ ЛЮДЕЙ: ДІАНА АНДРУНИК ПРО ТРЕВЕЛ-ФОТОГРАФІЮ
+Подорожі не були б такими яскравими, якби не моя любов до плівкової камери. По-перше, ...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:50   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'БЕЗ ФОТОГРАФІЇ Я, ЯК БЕЗ МУЗИКИ, - КОСТЯ БОРОВСЬКИЙ ПРО УЛЮБЛЕНІ КАМЕРИ ТА ЦІКАВІ ЗНІМКИ
+Костя Боровський - вокаліст гурту "АГОНЬ", співзасновник креативної агенції brvski.team...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:50   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'КРІМ СВОЇХ СПОГАДІВ, МИ НІЧИМ НЕ ВОЛОДІЄМО. ІНТЕРВ'Ю З КИРИЛОМ АНІСІМОВИМ ПРО ФОТОГРАФІЮ І ЛЮБОВ ДО ПЛІВКИ
+Як почав знімати? Надихнула каштанівська тусовка? Ні, все почалося набагато раніше. Мен...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:50   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ШПАРГАЛКА НОВОРІЧНИХ ПОДАРУНКІВ
+Іноді здається, що не людина обирає фотоапарат, а фотоапарат людину. І такий тандем при...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:50   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'LET'S SLIDE: НАШІ ВРАЖЕННЯ ВІД СЛАЙДА
+Ми вже розповіли про те, що таке слайдова плівка в минулій статті, а зараз хочемо поділ...
+Автор: Katya Gridina 12 липень 2017 р.'
+2026-31-01 12:39:50   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 200Т
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:50   INFO [org.pages.SearchResultPage] : 16. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 500T
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:50   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135 (протермінована)
+Продано
+Звичайна ціна
+₴450.00'
+2026-31-01 12:39:50   INFO [org.pages.SearchResultPage] : 18. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Aerocolor
+Продано
+Звичайна ціна
+₴500.00'
+2026-31-01 12:39:50   INFO [org.pages.SearchResultPage] : 19. ✔ Element contains one of expected texts [kodak] | Actual: 'Printer Kodak черный
+Продано
+Звичайна ціна
+₴0.00'
+2026-31-01 12:39:51   INFO [org.pages.SearchResultPage] : 20. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak 400T/135
+Продано
+Звичайна ціна
+₴500.00'
+2026-31-01 12:39:51   INFO [org.pages.SearchResultPage] : 21. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak ColorPlus 200/24
+Продано
+Звичайна ціна
+₴300.00'
+2026-31-01 12:39:51   INFO [org.pages.SearchResultPage] : 22. ✔ Element contains one of expected texts [kodak] | Actual: 'Одноразова камера Kodak FunSaver, 39 кадрів
+Продано
+Звичайна ціна
+₴1,050.00'
+2026-31-01 12:39:51   INFO [org.pages.SearchResultPage] : 23. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120
+Продано
+Звичайна ціна
+₴600.00'
+2026-31-01 12:39:51   INFO [org.pages.SearchResultPage] : 24. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100/135
+Продано
+Звичайна ціна
+₴1,050.00'
+2026-31-01 12:39:56   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:39:56   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:39:56   INFO [org.pages.SearchResultPage] : Checking 24 elements on current page
+2026-31-01 12:39:56   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/120
+Продано
+Звичайна ціна
+₴1,000.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120
+Продано
+Звичайна ціна
+₴850.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak Aerocolor 125 (24 кадри)
+Продано
+Звичайна ціна
+₴350.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120 (протермінована)
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135
+Продано
+Звичайна ціна
+₴900.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135
+Продано
+Звичайна ціна
+₴700.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120 (протермінована)
+Продано
+Звичайна ціна
+₴650.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D PGRxFVR
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:57   INFO [org.pages.SearchResultPage] : 10. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/24
+Продано
+Звичайна ціна
+₴660.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 11. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135, 24 кадри
+Продано
+Звичайна ціна
+₴550.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 12. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135 ПРОТЕРМІНОВАНА
+Продано
+Звичайна ціна
+₴800.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 13. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax 100/135
+Продано
+Звичайна ціна
+₴330.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 14. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax P3200/135
+Продано
+Звичайна ціна
+₴390.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/120
+Продано
+Звичайна ціна
+₴950.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 16. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/120
+Продано
+Звичайна ціна
+₴450.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/135
+Продано
+Звичайна ціна
+₴500.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 18. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/120
+Продано
+Звичайна ціна
+₴450.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 19. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 20. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 100/120
+Продано
+Звичайна ціна
+₴330.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 21. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100, 100/120
+Продано
+Звичайна ціна
+₴550.00'
+2026-31-01 12:39:58   INFO [org.pages.SearchResultPage] : 22. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135-36
+Продано
+Звичайна ціна
+₴650.00'
+2026-31-01 12:39:59   INFO [org.pages.SearchResultPage] : 23. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 400
+Продано
+Звичайна ціна
+₴400.00'
+2026-31-01 12:39:59   INFO [org.pages.SearchResultPage] : 24. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 ПРОТЕРМІНОВАНА 100 iso
+Продано
+Звичайна ціна
+₴250.00'
+2026-31-01 12:40:02   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:40:02   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:40:02   INFO [org.pages.SearchResultPage] : Checking 9 elements on current page
+2026-31-01 12:40:02   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135 на 24 кадри
+Продано
+Звичайна ціна
+₴350.00'
+2026-31-01 12:40:02   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Фотокнига "Notes in Ukraine" Hironori KODAMA
+Продано
+Звичайна ціна
+₴1,200.00'
+2026-31-01 12:40:02   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Спіраль для проявки в бачці Paterson Auto Load Reel Single
+Продано
+Звичайна ціна
+₴300.00'
+2026-31-01 12:40:02   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Ilford ID-11, 5 літрів
+Продано
+Звичайна ціна
+₴600.00'
+2026-31-01 12:40:02   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Harman Warmtone, 1 л
+Продано
+Звичайна ціна
+₴580.00'
+2026-31-01 12:40:03   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Бачок для проявки Paterson 35 mm на 1 спіраль
+Продано
+Звичайна ціна
+₴650.00'
+2026-31-01 12:40:03   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/135
+Продано
+Звичайна ціна
+₴300.00'
+2026-31-01 12:40:03   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm Fujicolor C200/36
+Продано
+Звичайна ціна
+₴600.00'
+2026-31-01 12:40:03   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Лірична 200D
+Продано
+Звичайна ціна
+₴250.00'
+2026-31-01 12:40:08   INFO [org.pages.SearchResultPage] : Next page button not found — це остання сторінка
+2026-31-01 12:40:08   INFO [org.tests.Search] : Browser was closed
+2026-31-01 12:43:39   INFO [org.tests.FilterForFilms] : Browser was opened
+2026-31-01 12:44:08   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 12:44:09   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-31-01 12:44:35   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 12:44:36   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-31-01 12:44:40   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-31-01 12:44:40   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-31-01 12:44:42   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-31-01 12:44:42   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-31-01 12:44:44   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 135 тип (35 мм)
+2026-31-01 12:44:46   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-31-01 12:44:46   INFO [org.pages.PlivkaPage] : Format selector clicked
+2026-31-01 12:44:47   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-31-01 12:44:47   INFO [org.pages.PlivkaPage] : 135mm format selected
+2026-31-01 12:44:49   INFO [org.pages.PlivkaPage] : Text in element matches expected text: 200
+2026-31-01 12:44:49   INFO [org.pages.PlivkaPage] : Product list is not empty. Products found: 3
+2026-31-01 12:44:50   INFO [org.pages.PlivkaPage] : Checking 3 elements on current page
+2026-31-01 12:44:50   INFO [org.pages.PlivkaPage] : 1. ✔ Element contains one of expected texts [135, 200] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)'
+2026-31-01 12:44:50   INFO [org.pages.PlivkaPage] : 2. ✔ Element contains one of expected texts [135, 200] | Actual: 'Плівка Fujifilm 200/135'
+2026-31-01 12:44:50   INFO [org.pages.PlivkaPage] : 3. ✔ Element contains one of expected texts [135, 200] | Actual: 'Плівка Kodak Color Plus 200/135'
+2026-31-01 12:44:55   INFO [org.pages.PlivkaPage] : Next page button not found — це остання сторінка
+2026-31-01 12:44:55   INFO [org.tests.FilterForFilms] : TC001 completed
+2026-31-01 12:44:55   INFO [org.tests.FilterForFilms] : Browser was closed
+2026-31-01 12:45:22   INFO [org.tests.Search] : Browser was opened
+2026-31-01 12:45:50   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 12:45:53   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 12:45:57   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 12:46:12   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 12:46:13   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 12:46:13   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 12:46:13   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 12:46:13   INFO [org.pages.SearchResultPage] : Checking 42 elements on current page
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Color Plus 200/135'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 50D'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135 (1 котушка)'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/135'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 11. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/135'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 13. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/120'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/135'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'KODAK ОГОЛОСИЛА ПРО ВІДНОВЛЕННЯ ВИРОБНИЦТВА ПЛІВКИ EKTACHROME'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + скан кольорової плівки 110 типу'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 19. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 20. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, колір (С-41)'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 21. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 22. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + базовий скан у TIFF, колір (С-41)'
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 23. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:14   WARN [org.pages.SearchResultPage] : 24. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Базова проявка + скан кольорової плівки 135 типу | 120 типу'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 25. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 26. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування плівки 110 типу'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 27. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 28. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, ЧБ (D-76)'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 29. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 30. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування одного кадру в максимальному розмірі JPG'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 31. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 32. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm 200/135'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 33. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 34. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/120'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 35. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 36. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан JPG, кіноплівка (ECN-2)'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 37. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 38. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'РЕКЛАМА ВІНТАЖНИХ КАМЕР, ЗДАТНА ПРИСОРОМИТИ INSTAGRAM'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 39. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'WHAT IS SLIDE: КОЛЬОРОВА ПОЗИТИВНА ПЛІВКА'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 40. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'FILM SECRETS #4: ПРОЯВЛЯЄМО ЧБ'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 41. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'FILM SECRETS #3: ПРОЯВЛЯЄМО КОЛЬОРОВУ ПЛІВКУ'
+2026-31-01 12:46:15   WARN [org.pages.SearchResultPage] : 42. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'НАВІЩО ПОТРІБНЕ РУЧНЕ ПРОЯВЛЕННЯ КОЛЬОРОВОЇ ПЛІВКИ'
+2026-31-01 12:46:21   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:46:21   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : Checking 34 elements on current page
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 1. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'АСИСТЕНТ З КАЙФУ: СЕРГІЙ ВОВК ПРО ПІДХІД ДО ФОТОГРАФІЇ, УЛЮБЛЕНІ ПЛІВКИ ТА ЕКСПЕРИМЕНТИ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: '"ХТОСЬ ШУКАЄ РЕФЕРЕНСИ В PINTEREST, Я Ж ШУКАЮ ЇХ У КІНО", — АРТУР МАЛІМОН ПРО РОБОТУ З МОДЕЛЯМИ, КІНО І ЛЮБОВ ДО РЕТРО'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ПРОЯВКА ЗА КРОС-ПРОЦЕСОМ: ЩО ЦЕ ЗА МОНСТР?'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: '#UKRAINEIS'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ГІД ЗА КОЛЬОРАМИ ПІД ЧАС ПРОЯВЛЕННЯ ЗА КРОС-ПРОЦЕСОМ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'FILM SECRETS #2: ВИНАХІД ФОТОПЛІВКИ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ПЛІВКА-ОБОРОТЕНЬ: МОНОХРОМНА ILFORD XP2 SUPER'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ЩО ПОКЛАСТИ ПІД ПОДУШКУ: 5 ІДЕЙ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'LOMOGRAPHY ОГЛЯД ПЛІВКИ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ЗАПИСКИ ХОРОШИХ ЛЮДЕЙ: ДІАНА АНДРУНИК ПРО ТРЕВЕЛ-ФОТОГРАФІЮ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'БЕЗ ФОТОГРАФІЇ Я, ЯК БЕЗ МУЗИКИ, - КОСТЯ БОРОВСЬКИЙ ПРО УЛЮБЛЕНІ КАМЕРИ ТА ЦІКАВІ ЗНІМКИ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'КРІМ СВОЇХ СПОГАДІВ, МИ НІЧИМ НЕ ВОЛОДІЄМО. ІНТЕРВ'Ю З КИРИЛОМ АНІСІМОВИМ ПРО ФОТОГРАФІЮ І ЛЮБОВ ДО ПЛІВКИ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'ШПАРГАЛКА НОВОРІЧНИХ ПОДАРУНКІВ'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'LET'S SLIDE: НАШІ ВРАЖЕННЯ ВІД СЛАЙДА'
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 200Т'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 500T'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 19. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135 (протермінована)'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 20. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 21. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Aerocolor'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 22. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 23. ✔ Element contains one of expected texts [kodak] | Actual: 'Printer Kodak черный'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 24. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 25. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak 400T/135'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 26. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:22   INFO [org.pages.SearchResultPage] : 27. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak ColorPlus 200/24'
+2026-31-01 12:46:22   WARN [org.pages.SearchResultPage] : 28. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:23   INFO [org.pages.SearchResultPage] : 29. ✔ Element contains one of expected texts [kodak] | Actual: 'Одноразова камера Kodak FunSaver, 39 кадрів'
+2026-31-01 12:46:23   WARN [org.pages.SearchResultPage] : 30. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:23   INFO [org.pages.SearchResultPage] : 31. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120'
+2026-31-01 12:46:23   WARN [org.pages.SearchResultPage] : 32. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:23   INFO [org.pages.SearchResultPage] : 33. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100/135'
+2026-31-01 12:46:23   WARN [org.pages.SearchResultPage] : 34. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : Checking 48 elements on current page
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/120'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak Aerocolor 125 (24 кадри)'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120 (протермінована)'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 11. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 13. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120 (протермінована)'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D PGRxFVR'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 19. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/24'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 20. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:27   INFO [org.pages.SearchResultPage] : 21. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135, 24 кадри'
+2026-31-01 12:46:27   WARN [org.pages.SearchResultPage] : 22. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 23. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135 ПРОТЕРМІНОВАНА'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 24. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 25. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax 100/135'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 26. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 27. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax P3200/135'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 28. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 29. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/120'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 30. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 31. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/120'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 32. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 33. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/135'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 34. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 35. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/120'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 36. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 37. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 38. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 39. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 100/120'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 40. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 41. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100, 100/120'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 42. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 43. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135-36'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 44. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 45. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 400'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 46. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:28   INFO [org.pages.SearchResultPage] : 47. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 ПРОТЕРМІНОВАНА 100 iso'
+2026-31-01 12:46:28   WARN [org.pages.SearchResultPage] : 48. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:46:35   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:46:35   INFO [org.pages.SearchResultPage] : Checking 18 elements on current page
+2026-31-01 12:46:35   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135 на 24 кадри'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Фотокнига "Notes in Ukraine" Hironori KODAMA'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Спіраль для проявки в бачці Paterson Auto Load Reel Single'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Ilford ID-11, 5 літрів'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Harman Warmtone, 1 л'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Бачок для проявки Paterson 35 mm на 1 спіраль'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/135'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 15. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm Fujicolor C200/36'
+2026-31-01 12:46:35   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:36   WARN [org.pages.SearchResultPage] : 17. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Лірична 200D'
+2026-31-01 12:46:36   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: ''
+2026-31-01 12:46:41   INFO [org.pages.SearchResultPage] : Next page button not found — це остання сторінка
+2026-31-01 12:46:41   INFO [org.tests.Search] : Browser was closed
+2026-31-01 12:50:07   INFO [org.tests.Search] : Browser was opened
+2026-31-01 12:50:36   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 12:50:39   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 12:50:44   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 12:50:58   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 12:50:58   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 12:50:58   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 12:50:58   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 12:50:58   INFO [org.pages.SearchResultPage] : Checking 18 elements on current page
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Color Plus 200/135'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 50D'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135 (1 котушка)'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/135'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/135'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/120'
+2026-31-01 12:50:59   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/135'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + скан кольорової плівки 110 типу'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, колір (С-41)'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + базовий скан у TIFF, колір (С-41)'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Базова проявка + скан кольорової плівки 135 типу | 120 типу'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування плівки 110 типу'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, ЧБ (D-76)'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 15. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування одного кадру в максимальному розмірі JPG'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm 200/135'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 17. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/120'
+2026-31-01 12:50:59   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан JPG, кіноплівка (ECN-2)'
+2026-31-01 12:51:06   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:51:06   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:51:06   INFO [org.pages.SearchResultPage] : Checking 10 elements on current page
+2026-31-01 12:51:06   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 200Т'
+2026-31-01 12:51:06   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 500T'
+2026-31-01 12:51:06   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135 (протермінована)'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Aerocolor'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Printer Kodak черный'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak 400T/135'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak ColorPlus 200/24'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Одноразова камера Kodak FunSaver, 39 кадрів'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120'
+2026-31-01 12:51:07   INFO [org.pages.SearchResultPage] : 10. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100/135'
+2026-31-01 12:51:10   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:51:10   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : Checking 24 elements on current page
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak Aerocolor 125 (24 кадри)'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120 (протермінована)'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120 (протермінована)'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D PGRxFVR'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 10. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/24'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 11. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135, 24 кадри'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 12. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135 ПРОТЕРМІНОВАНА'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 13. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax 100/135'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 14. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax P3200/135'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 16. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/135'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 18. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 19. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 20. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 100/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 21. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100, 100/120'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 22. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135-36'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 23. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 400'
+2026-31-01 12:51:11   INFO [org.pages.SearchResultPage] : 24. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 ПРОТЕРМІНОВАНА 100 iso'
+2026-31-01 12:51:17   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:51:17   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:51:17   INFO [org.pages.SearchResultPage] : Checking 9 elements on current page
+2026-31-01 12:51:17   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135 на 24 кадри'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Фотокнига "Notes in Ukraine" Hironori KODAMA'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Спіраль для проявки в бачці Paterson Auto Load Reel Single'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Ilford ID-11, 5 літрів'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Harman Warmtone, 1 л'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Бачок для проявки Paterson 35 mm на 1 спіраль'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/135'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm Fujicolor C200/36'
+2026-31-01 12:51:17   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Лірична 200D'
+2026-31-01 12:51:22   INFO [org.pages.SearchResultPage] : Next page button not found — це остання сторінка
+2026-31-01 12:51:22   INFO [org.tests.Search] : Browser was closed
+2026-31-01 12:56:31   INFO [org.tests.Search] : Browser was opened
+2026-31-01 12:57:00   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 12:57:03   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 12:57:08   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 12:57:23   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 12:57:23   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 12:57:23   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak'
+2026-31-01 12:57:23   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 81
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : Page 1: found 18elements
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Color Plus 200/135'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 50D'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135 (1 котушка)'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/135'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/135'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/120'
+2026-31-01 12:57:24   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/135'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + скан кольорової плівки 110 типу'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, колір (С-41)'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + базовий скан у TIFF, колір (С-41)'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Базова проявка + скан кольорової плівки 135 типу | 120 типу'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування плівки 110 типу'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, ЧБ (D-76)'
+2026-31-01 12:57:24   WARN [org.pages.SearchResultPage] : 15. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування одного кадру в максимальному розмірі JPG'
+2026-31-01 12:57:25   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm 200/135'
+2026-31-01 12:57:25   WARN [org.pages.SearchResultPage] : 17. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/120'
+2026-31-01 12:57:25   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан JPG, кіноплівка (ECN-2)'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : Page 2: found 10elements
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 200Т'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 500T'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135 (протермінована)'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Aerocolor'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Printer Kodak черный'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak 400T/135'
+2026-31-01 12:57:31   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak ColorPlus 200/24'
+2026-31-01 12:57:32   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Одноразова камера Kodak FunSaver, 39 кадрів'
+2026-31-01 12:57:32   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120'
+2026-31-01 12:57:32   INFO [org.pages.SearchResultPage] : 10. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100/135'
+2026-31-01 12:57:34   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:57:34   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : Page 3: found 24elements
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak Aerocolor 125 (24 кадри)'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120 (протермінована)'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Pro Image 100/135'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 8. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 160/120 (протермінована)'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 9. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 250D PGRxFVR'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 10. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/24'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 11. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ultramax 400/135, 24 кадри'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 12. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 160/135 ПРОТЕРМІНОВАНА'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 13. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax 100/135'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 14. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Tmax P3200/135'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 15. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra Professional 400/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 16. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 400/135'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 18. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 19. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 20. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak T-Max 100/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 21. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektachrome E100, 100/120'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 22. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135-36'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 23. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 400'
+2026-31-01 12:57:35   INFO [org.pages.SearchResultPage] : 24. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222 ПРОТЕРМІНОВАНА 100 iso'
+2026-31-01 12:57:38   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 12:57:38   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 12:57:38   INFO [org.pages.SearchResultPage] : Page 4: found 9elements
+2026-31-01 12:57:38   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak TRI-X 400/135 на 24 кадри'
+2026-31-01 12:57:38   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Фотокнига "Notes in Ukraine" Hironori KODAMA'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Спіраль для проявки в бачці Paterson Auto Load Reel Single'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Ilford ID-11, 5 літрів'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Harman Warmtone, 1 л'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Бачок для проявки Paterson 35 mm на 1 спіраль'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/135'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm Fujicolor C200/36'
+2026-31-01 12:57:39   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Лірична 200D'
+2026-31-01 12:57:44   INFO [org.pages.SearchResultPage] : Next page button not found — це остання сторінка
+2026-31-01 12:57:44   INFO [org.tests.Search] : Browser was closed
+2026-31-01 13:01:02   INFO [org.tests.Search] : Browser was opened
+2026-31-01 13:01:31   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 13:01:34   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 13:01:38   INFO [org.pages.elements.HeaderOfSite] : kodak was inputed into element 
+2026-31-01 13:01:54   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 13:01:54   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak, query string: q=kodak
+2026-31-01 13:01:54   INFO [org.tests.Search] : Browser was closed
+2026-31-01 13:02:11   INFO [org.tests.Search] : Browser was opened
+2026-31-01 13:02:41   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 13:02:44   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 13:02:49   INFO [org.pages.elements.HeaderOfSite] : kodak 200 was inputed into element 
+2026-31-01 13:03:05   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 13:03:05   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak+200, query string: q=kodak+200
+2026-31-01 13:03:05   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak 200'
+2026-31-01 13:03:05   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 42
+2026-31-01 13:03:06   INFO [org.pages.SearchResultPage] : Page 1: found 11 elements
+2026-31-01 13:03:06   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Color Plus 200/135'
+2026-31-01 13:03:07   INFO [org.pages.SearchResultPage] : 2. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm 200/135'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/120'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + скан ЧБ плівки 110 типу'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Сканування плівки 110 типу'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Базова проявка + скан ЧБ плівки 135 типу | 120 типу'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан JPG, ЧБ (D-76)'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + скан кольорової плівки 110 типу'
+2026-31-01 13:03:07   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявка + максимальний скан TIFF, ЧБ (D-76)'
+2026-31-01 13:03:07   INFO [org.pages.SearchResultPage] : 11. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Ektar 100/135'
+2026-31-01 13:03:14   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 13:03:14   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : Page 2: found 18 elements
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 1. ✔ Element contains one of expected texts [kodak] | Actual: 'Кіноплівка Kodak Vision3 200Т'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Kentmere 200/135'
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 3. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120'
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 4. ✔ Element contains one of expected texts [kodak] | Actual: 'Kodak ColorPlus 200/24'
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 5. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/24'
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 6. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Gold 200/120 (протермінована)'
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 7. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Eastman Double X 5222'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Лірична 200D'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Панорама 100Т'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка кольорова Reflx Lab 400\135'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Rollei Superpan 200/120'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка кольорова Reflx Lab 800\135'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Спіраль для проявки в бачці Paterson Auto Load Reel Single'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Проявник Ilford ID-11, 5 літрів'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 15. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Бачок для проявки Paterson 35 mm на 1 спіраль'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Плівка Fujifilm Fujicolor C200/36'
+2026-31-01 13:03:15   INFO [org.pages.SearchResultPage] : 17. ✔ Element contains one of expected texts [kodak] | Actual: 'Плівка Kodak Portra 800/120'
+2026-31-01 13:03:15   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak] | Actual: 'Revolog Lazer 200/135'
+2026-31-01 13:03:20   INFO [org.pages.SearchResultPage] : It's the last page, next page button is not displayed or not enabled
+2026-31-01 13:03:21   INFO [org.tests.Search] : Browser was closed
+2026-31-01 13:16:07   INFO [org.tests.Search] : Browser was opened
+2026-31-01 13:16:37   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 13:16:39   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 13:16:44   INFO [org.pages.elements.HeaderOfSite] : kodak 200 was inputed into element 
+2026-31-01 13:16:58   INFO [org.pages.elements.HeaderOfSite] : Pressed ENTER
+2026-31-01 13:16:58   INFO [org.pages.SearchResultPage] : Current URL: https://fotovramci.com/search?q=kodak+200, query string: q=kodak+200
+2026-31-01 13:16:58   INFO [org.pages.SearchResultPage] : Query parameter 'q' is correct: 'kodak 200'
+2026-31-01 13:16:59   INFO [org.pages.SearchResultPage] : Product list is not empty. Products found: 42
+2026-31-01 13:16:59   INFO [org.pages.SearchResultPage] : Page 1: found 11 elements
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 1. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Color Plus 200/135'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Gold 200/135 (1 котушка)'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Fujifilm 200/135'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kentmere 200/120'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Проявка + скан ЧБ плівки 110 типу'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Сканування плівки 110 типу'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Базова проявка + скан ЧБ плівки 135 типу | 120 типу'
+2026-31-01 13:16:59   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Проявка + максимальний скан JPG, ЧБ (D-76)'
+2026-31-01 13:17:00   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Проявка + скан кольорової плівки 110 типу'
+2026-31-01 13:17:00   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Проявка + максимальний скан TIFF, ЧБ (D-76)'
+2026-31-01 13:17:00   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Ektar 100/135'
+2026-31-01 13:17:05   INFO [org.pages.SearchResultPage] : Element was clicked
+2026-31-01 13:17:05   INFO [org.pages.SearchResultPage] : Navigated to next page
+2026-31-01 13:17:05   INFO [org.pages.SearchResultPage] : Page 2: found 18 elements
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 1. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Кіноплівка Kodak Vision3 200Т'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 2. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kentmere 200/135'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 3. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Gold 200/120'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 4. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Kodak ColorPlus 200/24'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 5. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Gold 200/24'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 6. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Gold 200/120 (протермінована)'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 7. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Eastman Double X 5222'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 8. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Лірична 200D'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 9. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Панорама 100Т'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 10. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка кольорова Reflx Lab 400\135'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 11. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Rollei Superpan 200/120'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 12. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка кольорова Reflx Lab 800\135'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 13. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Спіраль для проявки в бачці Paterson Auto Load Reel Single'
+2026-31-01 13:17:05   WARN [org.pages.SearchResultPage] : 14. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Проявник Ilford ID-11, 5 літрів'
+2026-31-01 13:17:06   WARN [org.pages.SearchResultPage] : 15. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Бачок для проявки Paterson 35 mm на 1 спіраль'
+2026-31-01 13:17:06   WARN [org.pages.SearchResultPage] : 16. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Fujifilm Fujicolor C200/36'
+2026-31-01 13:17:06   WARN [org.pages.SearchResultPage] : 17. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Плівка Kodak Portra 800/120'
+2026-31-01 13:17:06   WARN [org.pages.SearchResultPage] : 18. ✖ Element does NOT contain any of expected texts [kodak 200] | Actual: 'Revolog Lazer 200/135'
+2026-31-01 13:17:11   INFO [org.pages.SearchResultPage] : It's the last page, next page button is not displayed or not enabled
+2026-31-01 13:17:11   INFO [org.tests.Search] : Browser was closed
+2026-31-01 14:00:13   INFO [org.tests.AddProductsToCart] : Browser was opened
+2026-31-01 14:00:46   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:00:47   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-31-01 14:01:08   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 14:01:12   INFO [org.pages.PlivkaPage] : Plivka page was opened https://fotovramci.com/collections/plivka
+2026-31-01 14:01:24   INFO [org.pages.PlivkaPage] : Element was clicked
+2026-31-01 14:01:24   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-gold-200-135?variant=41759053545654
+2026-31-01 14:01:26   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-31-01 14:01:30   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-31-01 14:01:31   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 1
+2026-31-01 14:01:31   INFO [org.pages.ProductDetailsPage] : Cart modal window was closed with action
+2026-31-01 14:01:32   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-31-01 14:01:44   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 14:01:46   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-31-01 14:01:54   INFO [org.pages.FotokameryPage] : Element was clicked
+2026-31-01 14:01:54   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/camera-polaroid-now-gen-3-pebble-white?variant=44506014351542
+2026-31-01 14:01:55   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-31-01 14:01:56   INFO [org.pages.ProductDetailsPage] : Cart modal window is opened
+2026-31-01 14:01:57   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: 2
+2026-31-01 14:01:57   INFO [org.pages.ProductDetailsPage] : Items are displayed in different rows in cart modal window
+2026-31-01 14:01:59   INFO [org.pages.ProductDetailsPage] : 1. ✔ Element contains one of expected texts [камера, плівка] | Actual: 'КАМЕРА POLAROID NOW GEN 3, PEBBLE WHITE
+₴7,200.00
+Зменшити кількість для Камера Polaroid Now Gen 3, Pebble White
+Збільшити кількість для Камера Polaroid Now Gen 3, Pebble White
+Видалити'
+2026-31-01 14:01:59   INFO [org.pages.ProductDetailsPage] : 2. ✔ Element contains one of expected texts [камера, плівка] | Actual: 'ПЛІВКА KODAK GOLD 200/135 (1 КОТУШКА)
+₴650.00
+Зменшити кількість для Плівка Kodak Gold 200/135 (1 котушка)
+Збільшити кількість для Плівка Kodak Gold 200/135 (1 котушка)
+Видалити'
+2026-31-01 14:01:59   INFO [org.tests.AddProductsToCart] : TC002 completed
+2026-31-01 14:01:59   INFO [org.tests.AddProductsToCart] : Browser was closed
+2026-31-01 14:11:54   INFO [org.tests.OutOfStockProduct] : Browser was opened
+2026-31-01 14:12:23   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:12:25   INFO [org.tests.OutOfStockProduct] : Browser was closed
+2026-31-01 14:14:15   INFO [org.tests.OutOfStockProduct] : Browser was opened
+2026-31-01 14:14:45   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:14:46   INFO [org.pages.elements.HeaderOfSite] : Product list is empty. Products found: 0
+2026-31-01 14:14:47   INFO [org.pages.elements.HeaderOfSite] : Hovered over element
+2026-31-01 14:15:09   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 14:15:14   INFO [org.pages.FotokameryPage] : Fotokamery page was opened https://fotovramci.com/collections/fotokamery
+2026-31-01 14:15:14   INFO [org.tests.OutOfStockProduct] : TC004 completed
+2026-31-01 14:15:14   INFO [org.tests.OutOfStockProduct] : Browser was closed
+2026-31-01 14:32:10   INFO [org.tests.OutOfStockProduct] : Browser was opened
+2026-31-01 14:32:39   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:32:40   INFO [org.pages.elements.HeaderOfSite] : Product list is empty. Products found: 0
+2026-31-01 14:32:43  ERROR [org.pages.HomePage] : Error while working with element
+2026-31-01 14:32:43   INFO [org.tests.OutOfStockProduct] : Browser was closed
+2026-31-01 14:37:12   INFO [org.tests.OutOfStockProduct] : Browser was opened
+2026-31-01 14:37:41   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:37:43   INFO [org.pages.elements.HeaderOfSite] : Product list is empty. Products found: 0
+2026-31-01 14:38:02   INFO [org.pages.HomePage] : Element was clicked
+2026-31-01 14:38:02   INFO [org.tests.OutOfStockProduct] : TC004 completed
+2026-31-01 14:38:02   INFO [org.tests.OutOfStockProduct] : Browser was closed
+2026-31-01 14:41:58   INFO [org.tests.OutOfStockProduct] : Browser was opened
+2026-31-01 14:42:28   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:42:30   INFO [org.pages.elements.HeaderOfSite] : Product list is empty. Products found: 0
+2026-31-01 14:42:47   INFO [org.pages.HomePage] : Element was clicked
+2026-31-01 14:42:47   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-vision3-500t
+2026-31-01 14:42:48   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: Продано
+2026-31-01 14:42:48   INFO [org.pages.ProductDetailsPage] : Button has text: Продано
+2026-31-01 14:42:48   INFO [org.tests.OutOfStockProduct] : TC004 completed
+2026-31-01 14:42:48   INFO [org.tests.OutOfStockProduct] : Browser was closed
+2026-31-01 14:44:32   INFO [org.tests.OutOfStockProduct] : Browser was opened
+2026-31-01 14:45:03   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 14:45:05   INFO [org.pages.elements.HeaderOfSite] : Product list is empty. Products found: 0
+2026-31-01 14:45:23   INFO [org.pages.HomePage] : Element was clicked
+2026-31-01 14:45:23   INFO [org.pages.ProductDetailsPage] : Product Details page was opened https://fotovramci.com/products/kodak-vision3-500t
+2026-31-01 14:45:23   INFO [org.pages.ProductDetailsPage] : Text in element matches expected text: Продано
+2026-31-01 14:45:23   INFO [org.pages.ProductDetailsPage] : Button has text: Продано
+2026-31-01 14:45:24   INFO [org.pages.ProductDetailsPage] : Element was clicked
+2026-31-01 14:45:24   INFO [org.pages.elements.HeaderOfSite] : Product list is empty. Products found: 0
+2026-31-01 14:45:24   INFO [org.tests.OutOfStockProduct] : TC004 completed
+2026-31-01 14:45:24   INFO [org.tests.OutOfStockProduct] : Browser was closed

@@ -130,7 +130,7 @@ public class CommonActionsWithElements {
         List<WebElement> buttons = webDriver.findElements(nextButtonLocator);
 
         if (buttons.isEmpty()) {
-            logger.info("Next page button not found — це остання сторінка");
+            logger.info("It's the last page, next page button is not displayed or not enabled");
             return false;
         }
 
@@ -138,7 +138,7 @@ public class CommonActionsWithElements {
 
         try {
             if (!nextPageButton.isDisplayed() || !nextPageButton.isEnabled()) {
-                logger.info("Next page button is disabled — це остання сторінка");
+                logger.info("It's the last page, next page button is not displayed or not enabled");
                 return false;
             }
 
@@ -161,7 +161,6 @@ public class CommonActionsWithElements {
     }
 
 
-
     /**
      * Універсальний метод для перевірки, що список елементів містить очікуваний текст.
      * Можна використовувати для будь-якої сторінки і будь-якого списку з @FindBy.
@@ -171,17 +170,24 @@ public class CommonActionsWithElements {
      * @param timeoutSec    час очікування видимості елементів
      * @param expectedTexts тексти, які має містити кожен елемент
      */
-    protected void checkElementsHaveTextAcrossPageges(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
-
+    protected void checkElementsHaveTextAcrossPages(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
+        int pageNumber = 1;
         do {
-        checkElementsHaveText(elements, timeoutSec, expectedTexts);
+
+            logger.info(
+                    "Page " + pageNumber + ": found " + getElementsList(elements, timeoutSec).size() + " elements"
+            );
+            checkElementsHaveText(elements, timeoutSec, expectedTexts);
+            pageNumber++;
         } while (goToNextPage(getElementsList(elements, timeoutSec), nextButtonBy));
         softAssert.assertAll();
     }
 
-    protected void checkElementsHaveText(List<WebElement> elements, int timeoutSec, String... expectedTexts) {
+    protected void checkElementsHaveText(List<WebElement> elements,
+                                         int timeoutSec,
+                                         String... expectedTexts) {
+
         List<WebElement> currentList = getElementsList(elements, timeoutSec);
-        logger.info("Checking " + currentList.size() + " elements on single page");
 
         List<String> expectedLower = Arrays.stream(expectedTexts)
                 .map(String::toLowerCase)
@@ -189,27 +195,35 @@ public class CommonActionsWithElements {
 
         for (int i = 0; i < currentList.size(); i++) {
             WebElement element = currentList.get(i);
-            String text = element.getText();
-            String textLower = text.toLowerCase();
+            String actualText = element.getText();
+            String actualLower = actualText.toLowerCase();
 
-            boolean containsAny = expectedLower.stream().anyMatch(textLower::contains);
+            boolean containsAny = expectedLower.stream()
+                    .anyMatch(actualLower::contains);
 
-            if (!containsAny) {
-                logger.warn((i + 1) + ". Element does NOT contain any of texts " +
-                        Arrays.toString(expectedTexts) + " | Actual text: " + text);
+            if (containsAny) {
+                logger.info(
+                        (i + 1) + ". ✔ Element contains one of expected texts " +
+                                Arrays.toString(expectedTexts) + " | Actual: '" + actualText + "'"
+                );
             } else {
-                logger.info((i + 1) + ". Element contains at least one of texts " +
-                        Arrays.toString(expectedTexts) + " | Actual text: " + text);
+                logger.warn(
+                        String.format("%d. ✖ Element does NOT contain any of expected texts %s | Actual: '%s'",
+                                i + 1,
+                                Arrays.toString(expectedTexts),
+                                actualText)
+                );
             }
 
-            softAssert.assertTrue(containsAny,
-                    "Element does not contain any of expected texts " +
-                            Arrays.toString(expectedTexts) +
-                            ". Actual text: " + text);
+            softAssert.assertTrue(
+                    containsAny,
+                    "Element does not contain any of expected texts "
+                            + Arrays.toString(expectedTexts)
+                            + ". Actual text: " + actualText
+            );
         }
-
-        softAssert.assertAll();
     }
+
 
     private void printErrorAndStopTest() {
         logger.error("Error while working with element");
@@ -217,13 +231,13 @@ public class CommonActionsWithElements {
     }
 
     public void pressEnter() {
-            new Actions(webDriver)
-                    .sendKeys(Keys.ENTER)
-                    .perform();
-            logger.info("Pressed ENTER");
+        new Actions(webDriver)
+                .sendKeys(Keys.ENTER)
+                .perform();
+        logger.info("Pressed ENTER");
     }
 
-    public void checkProductsListIsNotEmpty(WebElement counterElement) {
+    public void checkElementIsNotZero(WebElement counterElement) {
         String text = counterElement.getText(); // "72 елементів"
 
         int productsCount = Integer.parseInt(text.replaceAll("\\D+", ""));
@@ -234,6 +248,21 @@ public class CommonActionsWithElements {
         );
 
         logger.info("Product list is not empty. Products found: " + productsCount);
+    }
+
+    public void checkElementIsZero(WebElement counterElement) {
+        String text = counterElement.getText(); // "0 елементів"
+
+        int productsCount = Integer.parseInt(text.replaceAll("\\D+", ""));
+
+        Assert.assertTrue(
+                "Product list is not empty!",
+                productsCount == 0
+        );
+
+        // TODO work on logger message
+
+        logger.info("Product list is empty. Products found: " + productsCount);
     }
 
 

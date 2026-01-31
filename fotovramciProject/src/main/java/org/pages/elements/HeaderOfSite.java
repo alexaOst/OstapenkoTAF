@@ -26,6 +26,8 @@ public class HeaderOfSite extends CommonActionsWithElements {
 
     @FindBy(xpath = "//input[@class='gl-d-searchbox-input']")
     private WebElement searchFiled;
+    @FindBy(xpath = "//span[@class='header__cart-count']")
+    private WebElement cartCounter;
 
     public HeaderOfSite(WebDriver webDriver) {
         super(webDriver);
@@ -52,12 +54,17 @@ public class HeaderOfSite extends CommonActionsWithElements {
 
     public HeaderOfSite clickOnSearch() {
         clickOnElement(searchButton);
-
         return this;
     }
 
     public HeaderOfSite enterTextIntoSearchInput(String inputText) {
         clearAndEnterTextIntoElement(searchFiled, inputText);
+        return this;
+    }
+
+
+    public HeaderOfSite checkCartCounterIsEmpty() {
+        checkElementIsZero(cartCounter);
         return this;
     }
 }

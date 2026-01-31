@@ -63,13 +63,14 @@ Precondition:
 
 Steps to reproduce:
 1. On Home page scroll to “Today’s Top Products” section
-2. Hover mouse over a product
+2. Hover mouse over a out-of-stock product
 3. Click on the product
 4. Observe the "Add to cart" button
 
 Expected result:
 
-* “Sold” button is disabled
+* “Sold” button is displayed instead of "Add to cart"
+* User cannot add the product to the cart (Cart counter remains 0)
 
 #005 Photo printing – Order creation – invalid photo size warning
 

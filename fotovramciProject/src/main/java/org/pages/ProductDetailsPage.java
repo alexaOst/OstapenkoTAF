@@ -24,6 +24,9 @@ public class ProductDetailsPage extends ParentPage {
     @FindBy(xpath = "//button[contains(text(), 'Додати в кошик')]")
     private WebElement addToCartButton;
 
+    @FindBy(xpath = "//button[contains(text(), 'Продано')]")
+    private WebElement soldOutButton;
+
     @FindBy(xpath = "//div[@role='dialog' and @data-animation-state='open']")
     private WebElement openedCartModalWindow;
 
@@ -89,6 +92,14 @@ public class ProductDetailsPage extends ParentPage {
     }
 
 
+    public ProductDetailsPage checkTextOutOfStockLabelOnButton(String text) {
+        checkTextInElement(soldOutButton, text);
+        logger.info("Button has text: " + text);
+        return this;
+    }
 
-
+    public ProductDetailsPage clickOnSoldOutButton() {
+        clickOnElement(soldOutButton);
+        return this;
+    }
 }

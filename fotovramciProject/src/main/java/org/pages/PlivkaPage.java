@@ -3,14 +3,10 @@ package org.pages;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.List;
 
 public class PlivkaPage extends ParentPage {
@@ -98,12 +94,12 @@ public class PlivkaPage extends ParentPage {
     }
 
     public PlivkaPage checkProductListIsNotEmpty() {
-        checkProductsListIsNotEmpty(productListCounter);
+        checkElementIsNotZero(productListCounter);
         return this;
     }
 
     public PlivkaPage checkProductListItemsHaveTextInLabels(String... productTitle) {
-        checkElementsHaveTextAcrossPageges(productLocator, nextButtonLocator, 5, productTitle);
+        checkElementsHaveTextAcrossPages(productLocator, nextButtonLocator, 5, productTitle);
         return this;
     }
 

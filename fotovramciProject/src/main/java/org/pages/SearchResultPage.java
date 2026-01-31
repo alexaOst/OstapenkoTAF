@@ -1,15 +1,11 @@
 package org.pages;
 
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.net.URI;
-import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class SearchResultPage extends ParentPage {
@@ -29,7 +25,7 @@ public class SearchResultPage extends ParentPage {
 
     @FindBy(xpath = "//div[@role='status']")
     private WebElement productLocator;
-    @FindBy(xpath = "//li[@class='main-search-results__list-item']")
+    @FindBy(xpath = "//a[@class='product-card__link']")
     private List<WebElement> productList;
 
 
@@ -40,7 +36,7 @@ public class SearchResultPage extends ParentPage {
 
 
     public SearchResultPage checkSearchResultsListIsNotEmpty() {
-        checkProductsListIsNotEmpty(productLocator);
+        checkElementIsNotZero(productLocator);
         return this;
     }
 
@@ -48,7 +44,7 @@ public class SearchResultPage extends ParentPage {
     public SearchResultPage checkProductListItemsHaveTextInLabels(String... productTitle) {
 
 //        checkElementsHaveText(productList, 5, productTitle);
-        checkElementsHaveTextAcrossPageges(productList, nextButtonLocator, 5, productTitle);
+        checkElementsHaveTextAcrossPages(productList, nextButtonLocator, 5, productTitle);
 
         return this;
         
