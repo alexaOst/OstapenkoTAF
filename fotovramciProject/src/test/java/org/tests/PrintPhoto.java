@@ -8,6 +8,9 @@ import java.nio.file.Paths;
 
 public class PrintPhoto extends BaseTest {
 
+    private final String INVALID_PHOTO_SIZE = "*Деякі завантажені фотографії не відповідають обраному формату. " +
+            "Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.";
+
     @Test
     public void TC005_invalidPhotoSizeToUpload() {
 
@@ -19,13 +22,11 @@ public class PrintPhoto extends BaseTest {
                 .checkIsRedirectToPrintPhotoPage()
                 .clickOrderButton()
                 .checkIsRedirectToUploadPhotoPage()
-                .uploadPhotos("invalid_size_photo.png")
-                .checkErrorMessageAboutInvalidPhotoSize("*Деякі завантажені фотографії не відповідають обраному формату. " +
-                        "Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.")
+                .uploadPhoto("invalid_size_photo.png")
+                .checkErrorMessageAboutInvalidPhotoSize(INVALID_PHOTO_SIZE)
 
         ;
 
-        // TODO refactor uploadPhotos method
         logger.info("TC005 completed");
     }
 }

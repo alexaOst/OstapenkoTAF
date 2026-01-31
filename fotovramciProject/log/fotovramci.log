@@ -3039,3 +3039,70 @@ Ilford XP2 Super - кольорова плівка, яка має вигляд �
 2026-31-01 16:25:11   INFO [org.pages.UploadPhoto] : Invalid message has text: *Деякі завантажені фотографії не відповідають обраному формату. Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.
 2026-31-01 16:25:11   INFO [org.tests.PrintPhoto] : TC005 completed
 2026-31-01 16:25:11   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 18:38:54   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 18:39:34   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 18:39:57   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 18:39:57   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 18:40:02   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 18:40:02   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 18:40:16   INFO [org.pages.UploadPhoto] : Text in element matches expected text: *Деякі завантажені фотографії не відповідають обраному формату. Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.
+2026-31-01 18:40:16   INFO [org.pages.UploadPhoto] : Invalid message has text: *Деякі завантажені фотографії не відповідають обраному формату. Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.
+2026-31-01 18:40:16   INFO [org.tests.PrintPhoto] : TC005 completed
+2026-31-01 18:40:16   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 18:48:38   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 18:49:11   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 18:49:19   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 18:49:19   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 18:49:24   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 18:49:24   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 18:49:24   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 18:50:03   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 18:50:45   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 18:51:08   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 18:51:08   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 18:51:13   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 18:51:13   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 18:51:23  ERROR [org.pages.UploadPhoto] : Error while working with element
+2026-31-01 18:51:23   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 18:51:45   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 18:52:15   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 18:52:22   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 18:52:23   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 18:52:26   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 18:52:26   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 18:52:37  ERROR [org.pages.UploadPhoto] : Error while working with element
+2026-31-01 18:52:37   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 18:55:07   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 18:55:35   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 18:55:42   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 18:55:42   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 18:55:46   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 18:55:46   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 18:55:57  ERROR [org.pages.UploadPhoto] : Error while working with element
+2026-31-01 18:55:57   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 18:59:23   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 18:59:49   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 19:00:03   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 19:00:03   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 19:00:08   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 19:00:08   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 19:00:20  ERROR [org.pages.UploadPhoto] : Error while working with element
+2026-31-01 19:00:20   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 19:02:22   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 19:02:54   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 19:03:02   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 19:03:02   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 19:03:06   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 19:03:06   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 19:03:16  ERROR [org.pages.UploadPhoto] : Error while working with element
+2026-31-01 19:03:16   INFO [org.tests.PrintPhoto] : Browser was closed
+2026-31-01 19:04:38   INFO [org.tests.PrintPhoto] : Browser was opened
+2026-31-01 19:05:07   INFO [org.pages.HomePage] : Home page was opened by url https://fotovramci.com/
+2026-31-01 19:05:17   INFO [org.pages.elements.HeaderOfSite] : Element was clicked
+2026-31-01 19:05:17   INFO [org.pages.PrintPhoto] : Plivka page was opened https://print.fotovramci.com/
+2026-31-01 19:05:21   INFO [org.pages.PrintPhoto] : Element was clicked
+2026-31-01 19:05:21   INFO [org.pages.UploadPhoto] : Upload photo page was opened https://print.fotovramci.com/upload-photos
+2026-31-01 19:05:32   INFO [org.pages.UploadPhoto] : Text in element matches expected text: *Деякі завантажені фотографії не відповідають обраному формату. Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.
+2026-31-01 19:05:32   INFO [org.pages.UploadPhoto] : Invalid message has text: *Деякі завантажені фотографії не відповідають обраному формату. Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.
+2026-31-01 19:05:32   INFO [org.tests.PrintPhoto] : TC005 completed
+2026-31-01 19:05:32   INFO [org.tests.PrintPhoto] : Browser was closed
