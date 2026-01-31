@@ -25,4 +25,8 @@ public class PageProvider {
     public SearchResultPage getSearchResultPage() {
         return new SearchResultPage(webDriver);
     }
+
+    public PrintPhoto getPrintPhotoPage() {
+        return new PrintPhoto(webDriver);
+    }
 }
