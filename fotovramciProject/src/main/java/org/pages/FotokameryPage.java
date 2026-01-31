@@ -29,7 +29,7 @@ public class FotokameryPage extends ParentPage{
     }
 
     public ProductDetailsPage clickOnFirstFotokameraOnPage() {
-        List<WebElement> products = getElementsList(productLocator, 5);
+        List<WebElement> products = getElementsList(productLocator);
         if (products.isEmpty()) {
             logger.error("No products found on the page to click");
             Assert.fail("No products found on the page to click");

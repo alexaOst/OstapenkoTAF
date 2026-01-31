@@ -46,7 +46,7 @@ public class PlivkaPage extends ParentPage {
     @FindBy(xpath = "//div[@class='h4 spf-product-card__title']")
     private List<WebElement> productLocator;
 
-    private By nextButtonLocator = By.className("next"); //pagination__next-button
+    private By nextButtonLocator = By.className("next");
 
     public PlivkaPage checkIsRedirectToPlivkaPage() {
         checkUrl();
@@ -99,13 +99,13 @@ public class PlivkaPage extends ParentPage {
     }
 
     public PlivkaPage checkProductListItemsHaveTextInLabels(String... productTitle) {
-        checkElementsHaveTextAcrossPages(productLocator, nextButtonLocator, 5, productTitle);
+        checkElementsHaveTextAcrossPages(productLocator, nextButtonLocator, productTitle);
         return this;
     }
 
     public ProductDetailsPage clickOnFirstPlivkaOnPage() {
 
-        List<WebElement> products = getElementsList(productLocator, 5);
+        List<WebElement> products = getElementsList(productLocator);
         if (products.isEmpty()) {
             logger.error("No products found on the page to click");
             Assert.fail("No products found on the page to click");

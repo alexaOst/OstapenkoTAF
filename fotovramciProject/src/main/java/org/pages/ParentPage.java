@@ -37,26 +37,34 @@ public abstract class ParentPage extends CommonActionsWithElements {
     }
 
     protected void checkUrlAndSearchQuery(String expectedSearchQuery) {
+        // Verifies that the current URL matches the expected URL with query parameters
         checkUrlWithQuery();
+        // Asserts that the query parameter "q" matches the expected search query
         assertQueryParamEquals("q", expectedSearchQuery);
     }
 
     protected void assertQueryParamEquals(String paramName, String expectedValue) {
+        // Retrieves the actual value of the specified query parameter
         String actualValue = getQueryParamValue(paramName);
 
+        // Asserts that the actual value matches the expected value
         Assert.assertEquals(
                 "Query parameter '" + paramName + "' does not match expected",
                 expectedValue,
                 actualValue
         );
 
+        // Logs the result of the query parameter validation
         logger.info("Query parameter '" + paramName + "' is correct: '" + actualValue + "'");
     }
 
     protected void checkUrlWithQuery() {
+        // Retrieves the current URL
         String actualUrl = webDriver.getCurrentUrl();
+        // Constructs the expected URL regex based on the base URL and relative URL
         String expectedRegex = baseUrl + getRelativeUrl();
 
+        // Asserts that the actual URL matches the expected regex
         Assert.assertTrue(
                 "URL is not expected \nExpected regex: " + expectedRegex +
                         "\nActual: " + actualUrl,
@@ -66,13 +74,18 @@ public abstract class ParentPage extends CommonActionsWithElements {
 
     protected String getQueryParamValue(String paramName) {
         try {
+            // Parses the current URL into a URI object
             URI uri = URI.create(webDriver.getCurrentUrl());
+            // Extracts the query string from the URI
             String query = uri.getQuery();
 
+            // Logs the current URL and query string
             logger.info("Current URL: " + uri + ", query string: " + query);
 
+            // Asserts that the query string is not null
             Assert.assertNotNull("URL does not contain query parameters", query);
 
+            // Splits the query string into key-value pairs and retrieves the value for the specified parameter
             return Arrays.stream(query.split("&"))
                     .map(p -> p.split("=", 2))
                     .filter(p -> p[0].equals(paramName))
@@ -81,6 +94,7 @@ public abstract class ParentPage extends CommonActionsWithElements {
                     .orElseThrow(() ->
                             new AssertionError("Query parameter '" + paramName + "' not found in URL"));
         } catch (Exception e) {
+            // Throws a runtime exception if URL parsing fails
             throw new RuntimeException("Failed to parse URL: " + webDriver.getCurrentUrl(), e);
         }
     }

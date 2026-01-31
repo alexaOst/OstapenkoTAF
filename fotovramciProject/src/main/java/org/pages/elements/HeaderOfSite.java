@@ -65,7 +65,6 @@ public class HeaderOfSite extends CommonActionsWithElements {
         return this;
     }
 
-
     public HeaderOfSite checkCartCounterIsEmpty() {
         checkElementIsZero(cartCounter);
         return this;

@@ -42,12 +42,8 @@ public class SearchResultPage extends ParentPage {
 
 
     public SearchResultPage checkProductListItemsHaveTextInLabels(String... productTitle) {
-
-//        checkElementsHaveText(productList, 5, productTitle);
-        checkElementsHaveTextAcrossPages(productList, nextButtonLocator, 5, productTitle);
-
+        checkElementsHaveTextAcrossPages(productList, nextButtonLocator, productTitle);
         return this;
-        
     }
 
 

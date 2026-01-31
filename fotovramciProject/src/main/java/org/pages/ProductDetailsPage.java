@@ -33,12 +33,11 @@ public class ProductDetailsPage extends ParentPage {
     @FindBy(xpath = "//h2[@class='cart-drawer__heading']//span")
     private WebElement cartCounter;
 
-    @FindBy(xpath = "//tr[@class='cart-drawer-form-item']")
+    @FindBy(xpath = "//td[@class='cart-drawer-item__details']")
     private List<WebElement> productLocator;
 
     public ProductDetailsPage checkIsRedirectToProductDetailsPage() {
         checkUrlWithPattern();
-        // TODO check some unique element on the page
         logger.info("Product Details page was opened " + webDriver.getCurrentUrl());
         return this;
     }
@@ -75,7 +74,7 @@ public class ProductDetailsPage extends ParentPage {
 
 
     public ProductDetailsPage checkItemsDisplayedInDifferentRowsInCartModalWindow() {
-        List<WebElement> products = getElementsList(productLocator, 5);
+        List<WebElement> products = getElementsList(productLocator);
         if (products.isEmpty()) {
             Assert.fail("Cart is empty");
         }
@@ -87,10 +86,9 @@ public class ProductDetailsPage extends ParentPage {
 
     public ProductDetailsPage checkItemsInModalWindowHaveTextInLabels(String... productTitle) {
 
-        checkElementsHaveText(productLocator, 5, productTitle);
+        checkListElementsHaveTextInTitle(productLocator, productTitle);
         return this;
     }
-
 
     public ProductDetailsPage checkTextOutOfStockLabelOnButton(String text) {
         checkTextInElement(soldOutButton, text);
