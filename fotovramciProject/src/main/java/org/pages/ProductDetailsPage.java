@@ -54,13 +54,13 @@ public class ProductDetailsPage extends ParentPage {
 
     public ProductDetailsPage checkCartModalWindowIsDisplayed() {
 
-        waitForElement(openedCartModalWindow, 5);
+        waitForElement(openedCartModalWindow);
         logger.info("Cart modal window is opened");
         return this;
     }
 
     public ProductDetailsPage checkCartCounterInModalWindow(String numberOfItems) {
-        waitForElement(cartCounter, 5);
+        waitForElement(cartCounter);
         checkTextInElement(cartCounter, numberOfItems);
         return this;
     }

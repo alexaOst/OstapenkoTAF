@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.utils.ConfigProvider;
 
 import java.net.URI;
 import java.net.URLDecoder;
@@ -12,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public abstract class ParentPage extends CommonActionsWithElements {
-    protected String baseUrl = "https://fotovramci.com/";
+    protected String baseUrl = ConfigProvider.configProperties.base_url();
     private Logger logger = Logger.getLogger(getClass());
 
     public List<WebElement> webelementsList;

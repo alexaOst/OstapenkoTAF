@@ -3,9 +3,9 @@ package org.tests;
 import org.baseTest.BaseTest;
 import org.junit.Test;
 
-public class Search extends BaseTest {
+import static org.data.TestData.TEXT_FOR_SEARCH;
 
-    private final String TEXT_FOR_SEARCH = "kodak";
+public class Search extends BaseTest {
 
     @Test
     public void TC003_resultOfSearch() {

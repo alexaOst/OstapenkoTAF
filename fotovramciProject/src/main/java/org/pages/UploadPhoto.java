@@ -63,50 +63,7 @@ public class UploadPhoto extends ParentPage {
 
     }
 
-//    public UploadPhoto uploadPhotos(String... fileNames) {
-//        if (fileNames == null || fileNames.length == 0) {
-//            throw new IllegalArgumentException("No files provided for upload!");
-//        }
-//
-//        // Резолвимо файли через ClassLoader
-//        List<String> absolutePaths = new ArrayList<>();
-//        for (String fileName : fileNames) {
-//            ClassLoader classLoader = getClass().getClassLoader();
-//            URL resource = classLoader.getResource("images/" + fileName);
-//
-//            if (resource == null) {
-//                throw new IllegalArgumentException("File not found in resources: " + fileName);
-//            }
-//
-//            File file = new File(resource.getFile());
-//            if (!file.exists()) {
-//                throw new IllegalArgumentException("File does not exist: " + file.getAbsolutePath());
-//            }
-//
-//            absolutePaths.add(file.getAbsolutePath());
-//        }
-//
-//        // Об'єднуємо шляхи для multiple input через \n
-//        String joinedPaths = String.join("\n", absolutePaths);
-//
-//        // Надсилаємо шляхи прямо в hidden input
-//        fileInput.sendKeys(joinedPaths);
-//
-//        // Чекаємо появи превʼю
-//        new WebDriverWait(webDriver, Duration.ofSeconds(UPLOAD_TIMEOUT_SEC))
-//                .until(ExpectedConditions.visibilityOf(uploadedPhotoPreview));
-//
-//        // Перевіряємо, що превʼю дійсно зʼявилось
-//        if (!uploadedPhotoPreview.isDisplayed()) {
-//            throw new AssertionError("Uploaded photo preview did not appear!");
-//        }
-//
-//        return this; // для чейнінгу
-//    }
-
-
     public UploadPhoto checkErrorMessageAboutInvalidPhotoSize(String text) {
-
         checkTextInElement(invalidMessage, text);
         logger.info("Invalid message has text: " + text);
         return this;

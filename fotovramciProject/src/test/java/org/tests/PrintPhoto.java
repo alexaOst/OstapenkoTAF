@@ -3,13 +3,9 @@ package org.tests;
 import org.baseTest.BaseTest;
 import org.junit.Test;
 
-import java.io.File;
-import java.nio.file.Paths;
+import static org.data.TestData.INVALID_PHOTO_SIZE;
 
 public class PrintPhoto extends BaseTest {
-
-    private final String INVALID_PHOTO_SIZE = "*Деякі завантажені фотографії не відповідають обраному формату. " +
-            "Відредагуйте за допомогою обрізки або додайте білі поля до потрібного розміру.";
 
     @Test
     public void TC005_invalidPhotoSizeToUpload() {

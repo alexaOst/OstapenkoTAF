@@ -9,7 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
+import org.utils.ConfigProvider;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -63,9 +67,14 @@ public class CommonActionsWithElements {
         }
     }
 
-    protected WebElement waitForElement(WebElement webElement, int timeoutInSeconds) {
-        return new WebDriverWait(webDriver, Duration.ofSeconds(timeoutInSeconds))
+    protected WebElement waitForElement(WebElement webElement) {
+        return new WebDriverWait(webDriver, Duration.ofSeconds(ConfigProvider.configProperties.TIME_FOR_IMPLICIT_WAIT()))
                 .until(ExpectedConditions.elementToBeClickable(webElement));
+    }
+
+    protected void waitUntilAllVisible(List<WebElement> elements, int timeoutSec) {
+        new WebDriverWait(webDriver, Duration.ofSeconds(timeoutSec))
+                .until(driver -> elements.size() > 0);
     }
 
     protected void selectTextInDropDown(WebElement webElement, String text) {
@@ -94,24 +103,7 @@ public class CommonActionsWithElements {
         }
     }
 
-    protected void waitUntilAllVisible(List<WebElement> elements, int timeoutSec) {
-        new WebDriverWait(webDriver, Duration.ofSeconds(timeoutSec))
-                .until(driver -> elements.size() > 0);
-    }
 
-    protected void waitUntilClickable(WebElement element, int timeoutSec) {
-        new WebDriverWait(webDriver, Duration.ofSeconds(timeoutSec))
-                .until(ExpectedConditions.elementToBeClickable(element));
-    }
-
-    protected boolean isElementDisplayed(WebElement element) {
-        try {
-            return element.isDisplayed();
-        } catch (Exception e) {
-            printErrorAndStopTest();
-            return false;
-        }
-    }
 
     protected void clearAndEnterTextIntoElement(WebElement webElement, String text) {
         try {
@@ -123,65 +115,6 @@ public class CommonActionsWithElements {
         }
     }
 
-    /**
-     * Переходить на наступну сторінку списку
-     */
-    protected boolean goToNextPage(List<WebElement> productList, By nextButtonLocator) {
-        List<WebElement> buttons = webDriver.findElements(nextButtonLocator);
-
-        if (buttons.isEmpty()) {
-            logger.info("It's the last page, next page button is not displayed or not enabled");
-            return false;
-        }
-
-        WebElement nextPageButton = buttons.get(0);
-
-        try {
-            if (!nextPageButton.isDisplayed() || !nextPageButton.isEnabled()) {
-                logger.info("It's the last page, next page button is not displayed or not enabled");
-                return false;
-            }
-
-            List<WebElement> oldProducts = new ArrayList<>(productList);
-
-            clickOnElement(nextPageButton);
-            logger.info("Navigated to next page");
-
-            if (!oldProducts.isEmpty()) {
-                new WebDriverWait(webDriver, Duration.ofSeconds(30))
-                        .until(ExpectedConditions.stalenessOf(oldProducts.get(0)));
-            }
-
-            return true;
-
-        } catch (StaleElementReferenceException e) {
-            logger.warn("Next page button became stale — можливо, це остання сторінка");
-            return false;
-        }
-    }
-
-
-    /**
-     * Універсальний метод для перевірки, що список елементів містить очікуваний текст.
-     * Можна використовувати для будь-якої сторінки і будь-якого списку з @FindBy.
-     *
-     * @param elements      список елементів @FindBy
-     * @param nextButtonBy  By кнопки наступної сторінки
-     * @param timeoutSec    час очікування видимості елементів
-     * @param expectedTexts тексти, які має містити кожен елемент
-     */
-    protected void checkElementsHaveTextAcrossPages(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
-        int pageNumber = 1;
-        do {
-
-            logger.info(
-                    "Page " + pageNumber + ": found " + getElementsList(elements, timeoutSec).size() + " elements"
-            );
-            checkElementsHaveText(elements, timeoutSec, expectedTexts);
-            pageNumber++;
-        } while (goToNextPage(getElementsList(elements, timeoutSec), nextButtonBy));
-        softAssert.assertAll();
-    }
 
     protected void checkElementsHaveText(List<WebElement> elements,
                                          int timeoutSec,
@@ -221,6 +154,66 @@ public class CommonActionsWithElements {
                             + Arrays.toString(expectedTexts)
                             + ". Actual text: " + actualText
             );
+        }
+    }
+
+    /**
+     * Універсальний метод для перевірки, що список елементів містить очікуваний текст.
+     * Можна використовувати для будь-якої сторінки і будь-якого списку з @FindBy.
+     *
+     * @param elements      список елементів @FindBy
+     * @param nextButtonBy  By кнопки наступної сторінки
+     * @param timeoutSec    час очікування видимості елементів
+     * @param expectedTexts тексти, які має містити кожен елемент
+     */
+    protected void checkElementsHaveTextAcrossPages(List<WebElement> elements, By nextButtonBy, int timeoutSec, String... expectedTexts) {
+        int pageNumber = 1;
+        do {
+
+            logger.info(
+                    "Page " + pageNumber + ": found " + getElementsList(elements, timeoutSec).size() + " elements"
+            );
+            checkElementsHaveText(elements, timeoutSec, expectedTexts);
+            pageNumber++;
+        } while (goToNextPage(getElementsList(elements, timeoutSec), nextButtonBy));
+        softAssert.assertAll();
+    }
+
+
+    /**
+     * Переходить на наступну сторінку списку
+     */
+    protected boolean goToNextPage(List<WebElement> productList, By nextButtonLocator) {
+        List<WebElement> buttons = webDriver.findElements(nextButtonLocator);
+
+        if (buttons.isEmpty()) {
+            logger.info("It's the last page, next page button is not displayed or not enabled");
+            return false;
+        }
+
+        WebElement nextPageButton = buttons.get(0);
+
+        try {
+            if (!nextPageButton.isDisplayed() || !nextPageButton.isEnabled()) {
+                logger.info("It's the last page, next page button is not displayed or not enabled");
+                return false;
+            }
+
+            List<WebElement> oldProducts = new ArrayList<>(productList);
+
+            clickOnElement(nextPageButton);
+            logger.info("Navigated to next page");
+
+            if (!oldProducts.isEmpty()) {
+                new WebDriverWait(webDriver, Duration.ofSeconds(30))
+                        .until(ExpectedConditions.stalenessOf(oldProducts.get(0)));
+            }
+
+            return true;
+
+        } catch (StaleElementReferenceException e) {
+            logger.warn("Next page button became stale — можливо, це остання сторінка");
+            return false;
         }
     }
 
@@ -265,48 +258,47 @@ public class CommonActionsWithElements {
         logger.info("Product list is empty. Products found: " + productsCount);
     }
 
+
     public void uploadPhotos(WebElement fileInput,
                              WebElement uploadedPhotoPreview,
-                             String... fileNames){
+                             String... fileNames) {
+
         if (fileNames == null || fileNames.length == 0) {
             throw new IllegalArgumentException("No files provided for upload!");
         }
 
-        // Резолвимо файли через ClassLoader
+        String relativeBasePath = ConfigProvider.configProperties.PHOTO_FILE();
+        Path projectRoot = Paths.get(System.getProperty("user.dir"));
+
+        Path basePath = projectRoot.resolve(relativeBasePath);
+
+        logger.info("Resolved images path: " + basePath);
+
         List<String> absolutePaths = new ArrayList<>();
+
         for (String fileName : fileNames) {
-            ClassLoader classLoader = getClass().getClassLoader();
-            java.net.URL resource = classLoader.getResource("images/" + fileName);
 
-            if (resource == null) {
-                throw new IllegalArgumentException("File not found in resources: " + fileName);
+            Path filePath = basePath.resolve(fileName);
+
+            logger.info("Resolved file path: " + filePath);
+
+            if (!Files.exists(filePath)) {
+                throw new IllegalArgumentException(
+                        "File not found: " + filePath.toAbsolutePath()
+                );
             }
 
-            java.io.File file = new java.io.File(resource.getFile());
-            if (!file.exists()) {
-                throw new IllegalArgumentException("File does not exist: " + file.getAbsolutePath());
-            }
-
-            absolutePaths.add(file.getAbsolutePath());
+            absolutePaths.add(filePath.toAbsolutePath().toString());
         }
 
-        // Об'єднуємо шляхи для multiple input через \n
         String joinedPaths = String.join("\n", absolutePaths);
-
-        // Надсилаємо шляхи прямо в hidden input
         fileInput.sendKeys(joinedPaths);
 
-        // Чекаємо появи превʼю
-        new WebDriverWait(webDriver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.visibilityOf(uploadedPhotoPreview));
+        waitForElement(uploadedPhotoPreview);
 
-
-        // Перевіряємо, що превʼю дійсно зʼявилось
         if (!uploadedPhotoPreview.isDisplayed()) {
             throw new AssertionError("Uploaded photo preview did not appear!");
         }
-
     }
-
 
 }

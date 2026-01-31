@@ -42,15 +42,15 @@ public class HeaderOfSite extends CommonActionsWithElements {
     }
 
     public PlivkaPage clickOnLinkFilms() {
-        waitForElement(openedDropdown, 5);
-        waitForElement(plivkaButton, 5);
+        waitForElement(openedDropdown);
+        waitForElement(plivkaButton);
         clickOnElement(plivkaButton);
         return new PlivkaPage(webDriver);
     }
 
     public FotokameryPage clickOnLinkFotokamery() {
-        waitForElement(openedDropdown, 5);
-        waitForElement(fotokameryButton, 5);
+        waitForElement(openedDropdown);
+        waitForElement(fotokameryButton);
         clickOnElement(fotokameryButton);
         return new FotokameryPage(webDriver);
     }
