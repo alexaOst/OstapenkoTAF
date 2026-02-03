@@ -113,8 +113,6 @@ public class CommonActionsWithElements {
                         + " | Actual: '" + actualText + "'");
             }
 
-            // TODO add counter of passed/failed checks (move from checkListElementsHaveTextInTitle)
-
         } catch (Exception e) {
             logger.error("Error while checking element text: " + e.getMessage(), e);
             printErrorAndStopTest();
