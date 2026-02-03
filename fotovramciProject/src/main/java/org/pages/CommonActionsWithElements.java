@@ -249,8 +249,6 @@ public class CommonActionsWithElements {
                 productsCount == 0
         );
 
-        // TODO work on logger message
-
         logger.info("Product list is empty. Products found: " + productsCount);
     }
 
