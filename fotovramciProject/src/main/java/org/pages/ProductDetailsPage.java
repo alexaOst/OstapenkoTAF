@@ -52,7 +52,6 @@ public class ProductDetailsPage extends ParentPage {
     }
 
     public ProductDetailsPage checkCartModalWindowIsDisplayed() {
-
         waitForElement(openedCartModalWindow);
         logger.info("Cart modal window is opened");
         return this;
@@ -65,7 +64,6 @@ public class ProductDetailsPage extends ParentPage {
     }
 
     public void closeCartModalWindowWithAction() {
-
         Actions actions = new Actions(webDriver);
         actions.moveByOffset(10, 10).click().perform();
         logger.info("Cart modal window was closed with action");
@@ -85,7 +83,6 @@ public class ProductDetailsPage extends ParentPage {
     }
 
     public ProductDetailsPage checkItemsInModalWindowHaveTextInLabels(String... productTitle) {
-
         checkListElementsHaveTextInTitle(productLocator, productTitle);
         return this;
     }

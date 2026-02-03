@@ -88,6 +88,8 @@ public class CommonActionsWithElements {
         }
     }
 
+    // Method to check if the text of a WebElement contains any of the expected texts (case-insensitive)
+
     protected void checkTextInElement(WebElement element, String... expectedTexts) {
         try {
             String actualText = element.getText();
@@ -119,6 +121,8 @@ public class CommonActionsWithElements {
         }
     }
 
+    // Method to check if each element in a list contains any of the expected texts in its title
+
     protected void checkListElementsHaveTextInTitle(List<WebElement> elements, String... expectedTexts) {
         List<WebElement> currentList = getElementsList(elements);
 
@@ -129,7 +133,6 @@ public class CommonActionsWithElements {
             checkTextInElement(element, expectedTexts);
         }
     }
-
 
     /**
      * Universal method to verify that a list of elements contains the expected text.
@@ -153,7 +156,6 @@ public class CommonActionsWithElements {
         softAssert.assertAll(); // Assert all collected soft assertions
     }
 
-
     /**
      * Navigates to the next page of the product list if the "Next" button is available and clickable.
      *
@@ -161,6 +163,7 @@ public class CommonActionsWithElements {
      * @param nextButtonLocator The locator for the "Next" button.
      * @return true if navigation to the next page was successful, false otherwise.
      */
+
     protected boolean goToNextPage(List<WebElement> productList, By nextButtonLocator) {
         // Find all elements matching the "Next" button locator
         List<WebElement> buttons = webDriver.findElements(nextButtonLocator);
@@ -201,7 +204,6 @@ public class CommonActionsWithElements {
             return false;
         }
     }
-
 
     public void pressEnter(WebElement element) {
         element.sendKeys(Keys.ENTER);
@@ -250,7 +252,6 @@ public class CommonActionsWithElements {
         logger.info("Product list is empty. Products found: " + productsCount);
     }
 
-
     /**
      * Uploads photos by providing file paths to the file input element and verifies the upload.
      *
@@ -260,6 +261,7 @@ public class CommonActionsWithElements {
      * @throws IllegalArgumentException if no files are provided or if any file does not exist.
      * @throws AssertionError           if the uploaded photo preview does not appear.
      */
+
     public void uploadPhotos(WebElement fileInput,
                              WebElement uploadedPhotoPreview,
                              String... fileNames) {
@@ -299,7 +301,7 @@ public class CommonActionsWithElements {
 
         // Verify that the uploaded photo preview is displayed
         if (!uploadedPhotoPreview.isDisplayed()) {
-            throw new AssertionError("Uploaded photo preview did not appear!");
+            printErrorAndStopTest();
         }
     }
 
@@ -307,6 +309,5 @@ public class CommonActionsWithElements {
         logger.error("Error while working with element");
         Assert.fail("Error while working with element");
     }
-
 
 }

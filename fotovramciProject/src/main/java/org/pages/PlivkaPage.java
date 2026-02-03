@@ -54,11 +54,6 @@ public class PlivkaPage extends ParentPage {
         return this;
     }
 
-    public PlivkaPage selectTextInDropDown(String textForSelection) {
-        selectTextInDropDown(buttonFormatSelector, textForSelection);
-        return this;
-    }
-
     public PlivkaPage clickFormatSelector() {
         clickOnElement(buttonFormatSelector);
         logger.info("Format selector clicked");

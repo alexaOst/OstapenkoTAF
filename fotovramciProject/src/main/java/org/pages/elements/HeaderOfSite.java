@@ -28,16 +28,16 @@ public class HeaderOfSite extends CommonActionsWithElements {
 
     @FindBy(xpath = "//input[@class='gl-d-searchbox-input']")
     private WebElement searchFiled;
+
     @FindBy(xpath = "//span[@class='header__cart-count']")
     private WebElement cartCounter;
+
     @FindBy(xpath = "(//a[@href='https://print.fotovramci.com/'])[1]")
     private WebElement printPhotoButton;
 
     public HeaderOfSite(WebDriver webDriver) {
         super(webDriver);
     }
-
-    private Logger logger = Logger.getLogger(getClass());
 
     public HeaderOfSite hoverOnButtonKupyty() {
         hoverOnElement(kupytyButton);

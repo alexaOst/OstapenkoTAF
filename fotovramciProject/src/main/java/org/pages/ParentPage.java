@@ -3,7 +3,6 @@ package org.pages;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.utils.ConfigProvider;
 
@@ -12,7 +11,6 @@ import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.Arrays;
-import java.util.List;
 
 public abstract class ParentPage extends CommonActionsWithElements {
     protected String baseUrl = ConfigProvider.configProperties.base_url();
@@ -60,22 +58,7 @@ public abstract class ParentPage extends CommonActionsWithElements {
                 actualValue
         );
 
-        // Logs the result of the query parameter validation
         logger.info("Query parameter '" + paramName + "' is correct: '" + actualValue + "'");
-    }
-
-    protected void checkUrlWithQuery() {
-        // Retrieves the current URL
-        String actualUrl = webDriver.getCurrentUrl();
-        // Constructs the expected URL regex based on the base URL and relative URL
-        String expectedRegex = baseUrl + getRelativeUrl();
-
-        // Asserts that the actual URL matches the expected regex
-        Assert.assertTrue(
-                "URL is not expected \nExpected regex: " + expectedRegex +
-                        "\nActual: " + actualUrl,
-                actualUrl.matches(expectedRegex)
-        );
     }
 
     protected String getQueryParamValue(String paramName) {
