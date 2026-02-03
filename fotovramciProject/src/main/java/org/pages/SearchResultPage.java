@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -29,6 +30,7 @@ public class SearchResultPage extends ParentPage {
     private List<WebElement> productList;
 
 
+
     public SearchResultPage checkIsRedirectToSearchResultPage(String expectedSearchQuery) {
         checkUrlAndSearchQuery(expectedSearchQuery);
         return this;
@@ -36,7 +38,7 @@ public class SearchResultPage extends ParentPage {
 
 
     public SearchResultPage checkSearchResultsListIsNotEmpty() {
-        checkElementIsNotZero(productLocator);
+        checkElementIsNotZero(productLocator, "cart");
         return this;
     }
 

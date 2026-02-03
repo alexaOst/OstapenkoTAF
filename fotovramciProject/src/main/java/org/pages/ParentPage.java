@@ -4,19 +4,19 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.utils.ConfigProvider;
 
 import java.net.URI;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 
 public abstract class ParentPage extends CommonActionsWithElements {
     protected String baseUrl = ConfigProvider.configProperties.base_url();
     private Logger logger = Logger.getLogger(getClass());
-
-    public List<WebElement> webelementsList;
 
     public ParentPage(WebDriver webDriver) {
         super(webDriver);
@@ -38,9 +38,15 @@ public abstract class ParentPage extends CommonActionsWithElements {
 
     protected void checkUrlAndSearchQuery(String expectedSearchQuery) {
         // Verifies that the current URL matches the expected URL with query parameters
-        checkUrlWithQuery();
+        waitForUrlMatches();
         // Asserts that the query parameter "q" matches the expected search query
         assertQueryParamEquals("q", expectedSearchQuery);
+    }
+
+    protected void waitForUrlMatches() {
+        new WebDriverWait(webDriver, Duration.ofSeconds(ConfigProvider.configProperties.TIME_FOR_IMPLICIT_WAIT()))
+                .until(driver ->
+                        driver.getCurrentUrl().matches(baseUrl + getRelativeUrl()));
     }
 
     protected void assertQueryParamEquals(String paramName, String expectedValue) {

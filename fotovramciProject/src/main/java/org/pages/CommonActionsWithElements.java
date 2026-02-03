@@ -205,24 +205,38 @@ public class CommonActionsWithElements {
     }
 
 
-    public void pressEnter() {
-        new Actions(webDriver)
-                .sendKeys(Keys.ENTER)
-                .perform();
-        logger.info("Pressed ENTER");
+    public void pressEnter(WebElement element) {
+        element.sendKeys(Keys.ENTER);
+        logger.info("Pressed ENTER on element");
     }
 
-    public void checkElementIsNotZero(WebElement counterElement) {
-        String text = counterElement.getText(); // "72 елементів"
+    public void checkElementIsNotZero(WebElement counterElement, String counterType) {
+        String text = counterElement.getText(); // наприклад: "72 елементів"
 
-        int productsCount = Integer.parseInt(text.replaceAll("\\D+", ""));
+        int count = Integer.parseInt(text.replaceAll("\\D+", ""));
 
-        Assert.assertTrue(
-                "Product list is empty!",
-                productsCount > 0
-        );
+        String errorMessage;
+        String successMessage;
 
-        logger.info("Product list is not empty. Products found: " + productsCount);
+        switch (counterType.toLowerCase()) {
+            case "cart":
+                errorMessage = "Cart is empty!";
+                successMessage = "Cart is not empty. Items in cart: ";
+                break;
+
+            case "product list":
+                errorMessage = "Product list is empty!";
+                successMessage = "Product list is not empty. Products found: ";
+                break;
+
+            default:
+                errorMessage = "Counter value is zero!";
+                successMessage = "Counter value is greater than zero: ";
+                break;
+        }
+
+        Assert.assertTrue(errorMessage, count > 0);
+        logger.info(successMessage + count);
     }
 
     public void checkElementIsZero(WebElement counterElement) {
@@ -295,7 +309,7 @@ public class CommonActionsWithElements {
 
     private void printErrorAndStopTest() {
         logger.error("Error while working with element");
-        Assert.fail("Error while working with element"); // wrote info into report
+        Assert.fail("Error while working with element");
     }
 
 

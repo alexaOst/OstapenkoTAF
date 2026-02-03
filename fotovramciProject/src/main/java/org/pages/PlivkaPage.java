@@ -94,7 +94,7 @@ public class PlivkaPage extends ParentPage {
     }
 
     public PlivkaPage checkProductListIsNotEmpty() {
-        checkElementIsNotZero(productListCounter);
+        checkElementIsNotZero(productListCounter, "product list");
         return this;
     }
 

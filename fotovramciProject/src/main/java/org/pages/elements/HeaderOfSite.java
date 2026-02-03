@@ -1,5 +1,6 @@
 package org.pages.elements;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -36,6 +37,8 @@ public class HeaderOfSite extends CommonActionsWithElements {
         super(webDriver);
     }
 
+    private Logger logger = Logger.getLogger(getClass());
+
     public HeaderOfSite hoverOnButtonKupyty() {
         hoverOnElement(kupytyButton);
         return this;
@@ -62,6 +65,11 @@ public class HeaderOfSite extends CommonActionsWithElements {
 
     public HeaderOfSite enterTextIntoSearchInput(String inputText) {
         clearAndEnterTextIntoElement(searchFiled, inputText);
+        return this;
+    }
+
+    public HeaderOfSite pressEnter() {
+        pressEnter(searchFiled);
         return this;
     }
 
